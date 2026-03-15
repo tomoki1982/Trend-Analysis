@@ -1,0 +1,80 @@
+# Economic Index Dashboard
+
+`Python -> GitHub -> Google Sheets -> Looker Studio` を前提にした無料構成のサンプルです。
+
+## Overview
+
+1. `scripts/fetch_indicators.py` が指標データを取得
+2. `data/history.csv` と `data/latest_snapshot.csv` を更新
+3. GitHub Actions が CSV を公開リポジトリへ push
+4. Google Sheets が GitHub raw CSV を `IMPORTDATA()` で読み込み
+5. Looker Studio が Sheets を参照して可視化
+
+## Covered Indicators
+
+- Domestic Corporate Goods Price Index
+- Japan Manufacturing PMI
+- USD/JPY
+- EUR/USD
+- EUR/JPY
+- WTI Crude Oil
+- Naphtha
+- Semiconductor Index (SOX)
+- Baltic Dry Index
+
+## Local Setup
+
+```powershell
+conda activate <your-env>
+pip install -r requirements.txt
+python scripts\fetch_indicators.py --refresh daily
+python scripts\fetch_indicators.py --refresh monthly
+streamlit run app.py
+```
+
+## Output Files
+
+- `data/history.csv`: time series for Looker Studio trend charts
+- `data/latest_snapshot.csv`: latest values table
+
+## GitHub Actions
+
+Workflow file: [update-market-data.yml](C:\Users\gotta\.codex\codexアプリ\Trend Analysis\.github\workflows\update-market-data.yml)
+
+- Daily indicators: weekdays at 09:00 JST
+- Monthly indicators: 1st day of month at 09:15 JST
+- Manual run: GitHub Actions `workflow_dispatch`
+
+## Google Sheets
+
+Create two sheets in your spreadsheet and paste these formulas.
+
+History sheet:
+
+```excel
+=IMPORTDATA("https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/data/history.csv")
+```
+
+Latest sheet:
+
+```excel
+=IMPORTDATA("https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/data/latest_snapshot.csv")
+```
+
+Your target spreadsheet is:
+[trend analysis](https://docs.google.com/spreadsheets/d/1Iyh_wh7QUdEHKT6OzW_F5OFpkkLPfaaevlZbYxXfsLg/edit?gid=0#gid=0)
+
+## Looker Studio
+
+Use the imported Sheets as data sources.
+
+- Latest value table: use `latest_snapshot.csv`
+- Trend chart: use `history.csv`
+- Suggested dimensions: `indicator_name`, `category`, `region`, `refresh`, `date`
+- Suggested metrics: `close`, `change`, `change_pct`
+
+## Notes
+
+- FRED series are pulled as historical series.
+- PMI, Naphtha and BDI are scraped from public pages as latest values and accumulated over time.
+- Free data sources can change page structure, so periodic maintenance may be needed.

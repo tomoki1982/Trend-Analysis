@@ -1,0 +1,48 @@
+name: Update Market Data
+
+on:
+  schedule:
+    - cron: "0 0 * * 1-5"
+    - cron: "15 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  update-daily:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 0 * * 1-5'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Update daily indicators
+        run: python scripts/fetch_indicators.py --refresh daily
+      - name: Commit CSV updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.csv data/latest_snapshot.csv
+          git diff --cached --quiet || git commit -m "Update daily market data"
+          git push
+
+  update-monthly:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 1 * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Update monthly indicators
+        run: python scripts/fetch_indicators.py --refresh monthly
+      - name: Commit CSV updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.csv data/latest_snapshot.csv
+          git diff --cached --quiet || git commit -m "Update monthly market data"
+          git push

@@ -1,0 +1,105 @@
+[
+  {
+    "symbol": "JPNPPDMMINMEI",
+    "name": "Domestic Corporate Goods Price Index",
+    "category": "Inflation",
+    "region": "Japan",
+    "source": "FRED / OECD",
+    "source_type": "fred",
+    "series_id": "JPNPPDMMINMEI",
+    "unit": "Index 2015=100",
+    "refresh": "monthly"
+  },
+  {
+    "symbol": "JPN_MANUFACTURING_PMI",
+    "name": "Japan Manufacturing PMI",
+    "category": "PMI",
+    "region": "Japan",
+    "source": "Trading Economics",
+    "source_type": "tradingeconomics_latest",
+    "url": "https://tradingeconomics.com/japan/manufacturing-pmi",
+    "page_label": "Manufacturing PMI in Japan",
+    "unit": "Points",
+    "refresh": "monthly"
+  },
+  {
+    "symbol": "DEXJPUS",
+    "name": "USD/JPY",
+    "category": "FX",
+    "region": "Global",
+    "source": "FRED",
+    "source_type": "fred",
+    "series_id": "DEXJPUS",
+    "unit": "JPY per USD",
+    "refresh": "daily"
+  },
+  {
+    "symbol": "DEXUSEU",
+    "name": "EUR/USD",
+    "category": "FX",
+    "region": "Global",
+    "source": "FRED",
+    "source_type": "fred",
+    "series_id": "DEXUSEU",
+    "unit": "USD per EUR",
+    "refresh": "daily"
+  },
+  {
+    "symbol": "EURJPY_DERIVED",
+    "name": "EUR/JPY",
+    "category": "FX",
+    "region": "Global",
+    "source": "FRED Derived",
+    "source_type": "fred_derived",
+    "formula": "multiply",
+    "series_ids": ["DEXJPUS", "DEXUSEU"],
+    "unit": "JPY per EUR",
+    "refresh": "daily"
+  },
+  {
+    "symbol": "DCOILWTICO",
+    "name": "WTI Crude Oil",
+    "category": "Commodity",
+    "region": "Global",
+    "source": "FRED / EIA",
+    "source_type": "fred",
+    "series_id": "DCOILWTICO",
+    "unit": "USD per Barrel",
+    "refresh": "daily"
+  },
+  {
+    "symbol": "NAPHTHA_COMMODITY",
+    "name": "Naphtha",
+    "category": "Commodity",
+    "region": "Global",
+    "source": "Trading Economics",
+    "source_type": "tradingeconomics_latest",
+    "url": "https://tradingeconomics.com/commodity/naphtha",
+    "page_label": "Naphtha",
+    "unit": "USD/T",
+    "refresh": "daily"
+  },
+  {
+    "symbol": "NASDAQSOX",
+    "name": "Semiconductor Index (SOX)",
+    "category": "Semiconductor",
+    "region": "United States",
+    "source": "FRED / Nasdaq",
+    "source_type": "fred",
+    "series_id": "NASDAQSOX",
+    "unit": "Index",
+    "refresh": "daily"
+  },
+  {
+    "symbol": "BALTIC_DRY",
+    "name": "Baltic Dry Index",
+    "category": "Shipping",
+    "region": "Global",
+    "source": "Trading Economics",
+    "source_type": "tradingeconomics_latest",
+    "url": "https://tradingeconomics.com/commodity/baltic",
+    "page_label": "Baltic Dry",
+    "unit": "Index Points",
+    "refresh": "daily"
+  }
+]
