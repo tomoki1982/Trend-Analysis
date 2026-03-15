@@ -17,6 +17,7 @@ DATA_DIR = ROOT_DIR / "data"
 HISTORY_PATH = DATA_DIR / "history.csv"
 HISTORY_LITE_PATH = DATA_DIR / "history_lite.csv"
 LATEST_PATH = DATA_DIR / "latest_snapshot.csv"
+MIN_HISTORY_DATE = "2020-01-01"
 HTTP_TIMEOUT = 30
 USER_AGENT = "Mozilla/5.0 (compatible; TrendAnalysisBot/1.0)"
 DATASET_COLUMNS = [
@@ -74,6 +75,7 @@ def fetch_market_data(indicators: Iterable[dict], period: str = "1y", interval: 
 
     dataset["date"] = pd.to_datetime(dataset["date"], errors="coerce")
     dataset = dataset.dropna(subset=["date", "close"])
+    dataset = dataset[dataset["date"] >= pd.Timestamp(MIN_HISTORY_DATE)]
     dataset["date"] = dataset["date"].dt.strftime("%Y-%m-%d")
     dataset = dataset.drop_duplicates(subset=["symbol", "date"], keep="last")
     return dataset.sort_values(["indicator_name", "date"]).reset_index(drop=True)
@@ -115,6 +117,7 @@ def build_history_lite(dataset: pd.DataFrame) -> pd.DataFrame:
     lite["date"] = pd.to_datetime(lite["date"], errors="coerce")
     lite["close"] = pd.to_numeric(lite["close"], errors="coerce")
     lite = lite.dropna(subset=["date", "indicator_name", "close"])
+    lite = lite[lite["date"] >= pd.Timestamp(MIN_HISTORY_DATE)]
     lite["date"] = lite["date"].dt.strftime("%Y-%m-%d")
     return lite.sort_values(["indicator_name", "date"]).reset_index(drop=True)
 
@@ -309,6 +312,7 @@ def merge_history_frames(existing: pd.DataFrame, new_data: pd.DataFrame) -> pd.D
     merged = pd.concat([existing_frame[DATASET_COLUMNS], new_frame[DATASET_COLUMNS]], ignore_index=True)
     merged["date"] = pd.to_datetime(merged["date"], errors="coerce")
     merged = merged.dropna(subset=["date"])
+    merged = merged[merged["date"] >= pd.Timestamp(MIN_HISTORY_DATE)]
     merged["date"] = merged["date"].dt.strftime("%Y-%m-%d")
     merged = merged.drop_duplicates(subset=["symbol", "date"], keep="last")
     return merged.sort_values(["indicator_name", "date"]).reset_index(drop=True)
