@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history.csv data/history_lite.csv data/latest_snapshot.csv
+          git add data/*.csv
           git diff --cached --quiet || git commit -m "Update daily market data"
           git push
 
@@ -43,6 +43,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history.csv data/history_lite.csv data/latest_snapshot.csv
+          git add data/*.csv
           git diff --cached --quiet || git commit -m "Update monthly market data"
           git push

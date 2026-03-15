@@ -122,6 +122,33 @@ def build_history_lite(dataset: pd.DataFrame) -> pd.DataFrame:
     return lite.sort_values(["indicator_name", "date"]).reset_index(drop=True)
 
 
+def build_segmented_history_exports(dataset: pd.DataFrame) -> dict[str, pd.DataFrame]:
+    lite = build_history_lite(dataset)
+    if lite.empty:
+        return {}
+
+    frame = lite.copy()
+    frame["date"] = pd.to_datetime(frame["date"], errors="coerce")
+    frame = frame.dropna(subset=["date"])
+
+    exports: dict[str, pd.DataFrame] = {}
+
+    monthly = frame[frame["refresh"] == "monthly"].copy()
+    if not monthly.empty:
+        monthly["date"] = monthly["date"].dt.strftime("%Y-%m-%d")
+        exports["history_monthly.csv"] = monthly.sort_values(["indicator_name", "date"]).reset_index(drop=True)
+
+    daily = frame[frame["refresh"] == "daily"].copy()
+    if not daily.empty:
+        daily["year"] = daily["date"].dt.year
+        for year, year_frame in daily.groupby("year"):
+            output = year_frame.drop(columns=["year"]).copy()
+            output["date"] = output["date"].dt.strftime("%Y-%m-%d")
+            exports[f"history_daily_{year}.csv"] = output.sort_values(["indicator_name", "date"]).reset_index(drop=True)
+
+    return exports
+
+
 def fetch_indicator_frame(indicator: dict, fetched_at: str, period: str, interval: str) -> pd.DataFrame:
     source_type = indicator.get("source_type", "yahoo")
     if source_type == "yahoo":
