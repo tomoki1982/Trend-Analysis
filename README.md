@@ -5,7 +5,7 @@
 ## Overview
 
 1. `scripts/fetch_indicators.py` が指標データを取得
-2. `data/history.csv` と `data/latest_snapshot.csv` を更新
+2. `data/history.csv`, `data/history_lite.csv`, `data/latest_snapshot.csv` を更新
 3. GitHub Actions が CSV を公開リポジトリへ push
 4. Google Sheets が GitHub raw CSV を `IMPORTDATA()` で読み込み
 5. Looker Studio が Sheets を参照して可視化
@@ -35,6 +35,7 @@ streamlit run app.py
 ## Output Files
 
 - `data/history.csv`: time series for Looker Studio trend charts
+- `data/history_lite.csv`: lightweight time series for Google Sheets and Looker Studio
 - `data/latest_snapshot.csv`: latest values table
 
 ## GitHub Actions
@@ -52,7 +53,7 @@ Create two sheets in your spreadsheet and paste these formulas.
 History sheet:
 
 ```excel
-=IMPORTDATA("https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/data/history.csv")
+=IMPORTDATA("https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/data/history_lite.csv")
 ```
 
 Latest sheet:
@@ -69,7 +70,7 @@ Your target spreadsheet is:
 Use the imported Sheets as data sources.
 
 - Latest value table: use `latest_snapshot.csv`
-- Trend chart: use `history.csv`
+- Trend chart: use `history_lite.csv`
 - Suggested dimensions: `indicator_name`, `category`, `region`, `refresh`, `date`
 - Suggested metrics: `close`, `change`, `change_pct`
 

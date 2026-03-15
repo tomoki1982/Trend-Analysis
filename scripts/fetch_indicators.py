@@ -10,7 +10,9 @@ if str(ROOT_DIR) not in sys.path:
 
 from src.data_pipeline import (
     HISTORY_PATH,
+    HISTORY_LITE_PATH,
     LATEST_PATH,
+    build_history_lite,
     build_latest_snapshot,
     fetch_market_data,
     filter_indicators_by_refresh,
@@ -29,14 +31,17 @@ def main(refresh: str | None = None) -> None:
     dataset = fetch_market_data(indicators=indicators, period="1y", interval="1d")
     existing_history = load_csv(HISTORY_PATH)
     merged_history = merge_history_frames(existing_history, dataset)
+    history_lite = build_history_lite(merged_history)
     latest_snapshot = build_latest_snapshot(merged_history)
 
     save_csv(merged_history, HISTORY_PATH)
+    save_csv(history_lite, HISTORY_LITE_PATH)
     save_csv(latest_snapshot, LATEST_PATH)
 
     print(f"Refresh target: {refresh or 'all'}")
     print(f"Fetched rows: {len(dataset)}")
     print(f"History rows: {len(merged_history)}")
+    print(f"History lite rows: {len(history_lite)}")
     print(f"Latest snapshot rows: {len(latest_snapshot)}")
 
 

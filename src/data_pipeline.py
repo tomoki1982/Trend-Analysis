@@ -15,6 +15,7 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT_DIR / "config" / "indicators.json"
 DATA_DIR = ROOT_DIR / "data"
 HISTORY_PATH = DATA_DIR / "history.csv"
+HISTORY_LITE_PATH = DATA_DIR / "history_lite.csv"
 LATEST_PATH = DATA_DIR / "latest_snapshot.csv"
 HTTP_TIMEOUT = 30
 USER_AGENT = "Mozilla/5.0 (compatible; TrendAnalysisBot/1.0)"
@@ -34,6 +35,14 @@ DATASET_COLUMNS = [
     "source",
     "unit",
     "fetched_at",
+]
+HISTORY_LITE_COLUMNS = [
+    "date",
+    "indicator_name",
+    "category",
+    "region",
+    "refresh",
+    "close",
 ]
 
 
@@ -91,6 +100,23 @@ def load_csv(path: Path) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
     return pd.read_csv(path)
+
+
+def build_history_lite(dataset: pd.DataFrame) -> pd.DataFrame:
+    if dataset.empty:
+        return pd.DataFrame(columns=HISTORY_LITE_COLUMNS)
+
+    frame = dataset.copy()
+    for column in HISTORY_LITE_COLUMNS:
+        if column not in frame.columns:
+            frame[column] = pd.NA
+
+    lite = frame[HISTORY_LITE_COLUMNS].copy()
+    lite["date"] = pd.to_datetime(lite["date"], errors="coerce")
+    lite["close"] = pd.to_numeric(lite["close"], errors="coerce")
+    lite = lite.dropna(subset=["date", "indicator_name", "close"])
+    lite["date"] = lite["date"].dt.strftime("%Y-%m-%d")
+    return lite.sort_values(["indicator_name", "date"]).reset_index(drop=True)
 
 
 def fetch_indicator_frame(indicator: dict, fetched_at: str, period: str, interval: str) -> pd.DataFrame:
