@@ -60,6 +60,7 @@ jobs:
           git add data/latest_snapshot.csv
           git add data/cgpi_dashboard.csv
           git add data/cgpi_*.csv
+          git add data/cgpi_*_lite.csv
           if git diff --cached --quiet; then
             echo "No CSV changes to commit."
             exit 0
