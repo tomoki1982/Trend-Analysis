@@ -6,6 +6,9 @@ on:
     - cron: "15 0 1 * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-daily:
     if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 0 * * 1-5'
