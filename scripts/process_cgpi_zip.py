@@ -18,7 +18,6 @@ DEFAULT_OUTPUT_CSV = DATA_DIR / "cgpi_dashboard.csv"
 DEFAULT_OUTPUT_TSV = DATA_DIR / "cgpi_dashboard.tsv"
 YEAR_RANGE = range(2020, 2027)
 TARGET_SERIES = {
-    "企業物価指数 2020年基準/輸入物価指数/円ベース": "輸入物価指数/円ベース",
     "企業物価指数 2020年基準/消費税を除く国内企業物価指数": "消費税を除く国内企業物価指数",
 }
 
