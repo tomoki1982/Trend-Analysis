@@ -16,6 +16,7 @@ DATA_DIR = ROOT_DIR / "data"
 DEFAULT_URL = "https://www.stat-search.boj.or.jp/info/cgpi_m_jp.zip"
 DEFAULT_OUTPUT_CSV = DATA_DIR / "cgpi_dashboard.csv"
 DEFAULT_OUTPUT_TSV = DATA_DIR / "cgpi_dashboard.tsv"
+YEAR_RANGE = range(2020, 2027)
 TARGET_SERIES = {
     "企業物価指数 2020年基準/輸入物価指数/円ベース": "輸入物価指数/円ベース",
     "企業物価指数 2020年基準/消費税を除く国内企業物価指数": "消費税を除く国内企業物価指数",
@@ -42,6 +43,7 @@ def main() -> None:
 
     transformed.to_csv(output_csv, index=False, encoding="utf-8-sig")
     transformed.to_csv(output_tsv, index=False, encoding="utf-8-sig", sep="\t")
+    write_yearly_exports(transformed)
 
     print(f"Rows: {len(transformed)}")
     print(f"CSV: {output_csv}")
@@ -142,6 +144,16 @@ def transform_cgpi(frame: pd.DataFrame) -> pd.DataFrame:
     ].copy()
     output["date"] = output["date"].dt.strftime("%Y-%m-%d")
     return output.sort_values(["indicator_name", "date", "classification1", "classification2"]).reset_index(drop=True)
+
+
+def write_yearly_exports(frame: pd.DataFrame) -> None:
+    yearly = frame.copy()
+    yearly["year"] = pd.to_datetime(yearly["date"], errors="coerce").dt.year
+
+    for year in YEAR_RANGE:
+        year_frame = yearly[yearly["year"] == year].drop(columns=["year"]).copy()
+        output_path = DATA_DIR / f"cgpi_{year}.csv"
+        year_frame.to_csv(output_path, index=False, encoding="utf-8-sig")
 
 
 def split_label(label: str) -> tuple[str, str]:
