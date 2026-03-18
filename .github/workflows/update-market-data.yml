@@ -51,11 +51,14 @@ jobs:
         run: pip install -r requirements.txt
       - name: Update monthly indicators
         run: python scripts/fetch_indicators.py --refresh monthly
+      - name: Build CGPI dashboard CSV
+        run: python scripts/process_cgpi_zip.py
       - name: Commit CSV updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/latest_snapshot.csv
+          git add data/cgpi_dashboard.csv
           if git diff --cached --quiet; then
             echo "No CSV changes to commit."
             exit 0
