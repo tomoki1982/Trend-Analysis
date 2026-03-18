@@ -1,0 +1,5 @@
+プロジェクト: [Trend Analysis](C:\Users\gotta\.codex\codexアプリ\Trend Analysis)
+GitHub: tomoki1982/Trend-Analysis
+Google Sheets: latest, history_daily_2020 から history_daily_2026 は IMPORTDATA() 設定済み
+月次データは未完成。history_monthly は現状 PMI 1件のみで、CGPI 取得ロジック要修正
+次回は Looker Studio で Google Sheets trend analysis を接続し、まず latest と daily だけでダッシュボードを作る

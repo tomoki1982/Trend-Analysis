@@ -36,6 +36,7 @@ def main(refresh: str | None = None) -> None:
     history_lite = build_history_lite(merged_history)
     segmented_exports = build_segmented_history_exports(merged_history)
     latest_snapshot = build_latest_snapshot(merged_history)
+    latest_snapshot = latest_snapshot[latest_snapshot["refresh"] == "daily"].reset_index(drop=True)
 
     save_csv(merged_history, HISTORY_PATH)
     save_csv(history_lite, HISTORY_LITE_PATH)

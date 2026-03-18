@@ -1,13 +1,14 @@
 [
   {
-    "symbol": "JPNPPDMMINMEI",
+    "symbol": "BOJ_CGPI_ALL",
     "name": "Domestic Corporate Goods Price Index",
     "category": "Inflation",
     "region": "Japan",
-    "source": "FRED / OECD",
-    "source_type": "fred",
-    "series_id": "JPNPPDMMINMEI",
-    "unit": "Index 2015=100",
+    "source": "Bank of Japan",
+    "source_type": "boj_main_series",
+    "url": "https://www.stat-search.boj.or.jp/ssi/mtshtml/pr01_m_1_en.html",
+    "series_position": 5,
+    "unit": "Index 2020=100",
     "refresh": "monthly"
   },
   {

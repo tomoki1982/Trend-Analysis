@@ -61,7 +61,11 @@ def fetch_market_data(indicators: Iterable[dict], period: str = "1y", interval: 
     fetched_at = datetime.now(timezone.utc).isoformat()
 
     for indicator in indicators:
-        frame = fetch_indicator_frame(indicator, fetched_at=fetched_at, period=period, interval=interval)
+        try:
+            frame = fetch_indicator_frame(indicator, fetched_at=fetched_at, period=period, interval=interval)
+        except Exception as error:
+            print(f"Skipped {indicator.get('name', indicator.get('symbol', 'unknown'))}: {error}")
+            continue
         if frame.empty:
             continue
         frames.append(frame)
@@ -157,6 +161,8 @@ def fetch_indicator_frame(indicator: dict, fetched_at: str, period: str, interva
         return fetch_fred_series(indicator, fetched_at=fetched_at)
     if source_type == "fred_derived":
         return fetch_fred_derived_series(indicator, fetched_at=fetched_at)
+    if source_type == "boj_main_series":
+        return fetch_boj_main_series(indicator, fetched_at=fetched_at)
     if source_type == "tradingeconomics_latest":
         return fetch_tradingeconomics_latest(indicator, fetched_at=fetched_at)
     return pd.DataFrame(columns=DATASET_COLUMNS)
@@ -272,10 +278,12 @@ def fetch_tradingeconomics_latest(indicator: dict, fetched_at: str) -> pd.DataFr
     if value is None:
         return pd.DataFrame(columns=DATASET_COLUMNS)
 
+    observation_date = extract_month_reference_date(text) or datetime.now(timezone.utc).date().isoformat()
+
     frame = pd.DataFrame(
         [
             {
-                "date": datetime.now(timezone.utc).date().isoformat(),
+                "date": observation_date,
                 "open": value,
                 "high": value,
                 "low": value,
@@ -285,6 +293,44 @@ def fetch_tradingeconomics_latest(indicator: dict, fetched_at: str) -> pd.DataFr
             }
         ]
     )
+    return enrich_indicator_frame(frame, indicator, fetched_at)
+
+
+def fetch_boj_main_series(indicator: dict, fetched_at: str) -> pd.DataFrame:
+    response = requests.get(indicator["url"], headers={"User-Agent": USER_AGENT}, timeout=HTTP_TIMEOUT)
+    response.raise_for_status()
+    text = normalize_page_text(response.text)
+    series_position = int(indicator.get("series_position", 5))
+    rows: list[dict] = []
+
+    for match in re.finditer(r"(\d{4}/\d{2})\s+([^\n\r]+)", text):
+        period = match.group(1)
+        values = match.group(2).split()
+        if len(values) < series_position:
+            continue
+        raw_value = values[series_position - 1]
+        if raw_value == "ND":
+            continue
+        try:
+            close = float(raw_value)
+        except ValueError:
+            continue
+        rows.append(
+            {
+                "date": f"{period}/01",
+                "open": close,
+                "high": close,
+                "low": close,
+                "close": close,
+                "adj_close": close,
+                "volume": pd.NA,
+            }
+        )
+
+    if not rows:
+        return pd.DataFrame(columns=DATASET_COLUMNS)
+
+    frame = pd.DataFrame(rows)
     return enrich_indicator_frame(frame, indicator, fetched_at)
 
 
@@ -304,6 +350,18 @@ def extract_tradingeconomics_value(text: str, label: str) -> float | None:
         if match:
             return float(match.group(1).replace(",", ""))
     return None
+
+
+def extract_month_reference_date(text: str) -> str | None:
+    match = re.search(r"in\s+([A-Za-z]+)\s+(\d{4})", text)
+    if not match:
+        return None
+    return parse_month_year(match.group(1), int(match.group(2)))
+
+
+def parse_month_year(month_name: str, year_value: int) -> str:
+    month_number = datetime.strptime(month_name[:3], "%b").month
+    return f"{year_value:04d}-{month_number:02d}-01"
 
 
 def enrich_indicator_frame(frame: pd.DataFrame, indicator: dict, fetched_at: str) -> pd.DataFrame:
