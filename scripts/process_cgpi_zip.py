@@ -150,6 +150,9 @@ def transform_cgpi(frame: pd.DataFrame) -> pd.DataFrame:
         ]
     ].copy()
     output["date"] = output["date"].dt.strftime("%Y-%m-%d")
+    output = output.drop_duplicates(
+        subset=["date", "indicator_name", "classification1", "classification2", "close"]
+    )
     return output.sort_values(["indicator_name", "date", "classification1", "classification2"]).reset_index(drop=True)
 
 
