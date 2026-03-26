@@ -1,6 +1,5 @@
 ﻿date,indicator_name,category,region,refresh,close
 2026-03-18,Baltic Dry Index,Shipping,Global,daily,2024.0
-2026-03-25,Baltic Dry Index,Shipping,Global,daily,1989.0
 2026-01-02,EUR/JPY,FX,Global,daily,183.957936
 2026-01-05,EUR/JPY,FX,Global,daily,183.12887999999998
 2026-01-06,EUR/JPY,FX,Global,daily,183.16663
@@ -111,7 +110,6 @@
 2026-03-20,EUR/USD,FX,Global,daily,1.1543
 2026-03-15,Naphtha,Commodity,Global,daily,799.0
 2026-03-18,Naphtha,Commodity,Global,daily,824.35
-2026-03-25,Naphtha,Commodity,Global,daily,850.25
 2026-01-02,Semiconductor Index (SOX),Semiconductor,United States,daily,7367.47
 2026-01-05,Semiconductor Index (SOX),Semiconductor,United States,daily,7446.45
 2026-01-06,Semiconductor Index (SOX),Semiconductor,United States,daily,7650.93
@@ -168,6 +166,7 @@
 2026-03-20,Semiconductor Index (SOX),Semiconductor,United States,daily,7670.61
 2026-03-23,Semiconductor Index (SOX),Semiconductor,United States,daily,7773.13
 2026-03-24,Semiconductor Index (SOX),Semiconductor,United States,daily,7872.71
+2026-03-25,Semiconductor Index (SOX),Semiconductor,United States,daily,7967.74
 2026-01-02,USD/JPY,FX,Global,daily,156.72
 2026-01-05,USD/JPY,FX,Global,daily,156.32
 2026-01-06,USD/JPY,FX,Global,daily,156.7
@@ -272,3 +271,8 @@
 2026-03-12,WTI Crude Oil,Commodity,Global,daily,95.61
 2026-03-13,WTI Crude Oil,Commodity,Global,daily,98.48
 2026-03-16,WTI Crude Oil,Commodity,Global,daily,93.39
+2026-03-17,WTI Crude Oil,Commodity,Global,daily,96.01
+2026-03-18,WTI Crude Oil,Commodity,Global,daily,96.12
+2026-03-19,WTI Crude Oil,Commodity,Global,daily,96.11
+2026-03-20,WTI Crude Oil,Commodity,Global,daily,98.71
+2026-03-23,WTI Crude Oil,Commodity,Global,daily,89.33
