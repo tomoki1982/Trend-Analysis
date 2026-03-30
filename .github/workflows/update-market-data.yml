@@ -2,7 +2,7 @@ name: Update Market Data
 
 on:
   schedule:
-    - cron: "0 0 * * 1-5"
+    - cron: "0 0 * * *"
     - cron: "15 0 1 * *"
   workflow_dispatch:
 
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   update-daily:
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 0 * * 1-5'
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 0 * * *'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
