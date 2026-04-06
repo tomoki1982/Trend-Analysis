@@ -56,6 +56,18 @@ def filter_indicators_by_refresh(indicators: Iterable[dict], refresh: str) -> li
     return [indicator for indicator in indicators if indicator.get("refresh") == refresh]
 
 
+def filter_history_to_active_symbols(dataset: pd.DataFrame, indicators: Iterable[dict]) -> pd.DataFrame:
+    if dataset.empty:
+        return dataset.copy()
+
+    active_symbols = {indicator.get("symbol") for indicator in indicators if indicator.get("symbol")}
+    if not active_symbols:
+        return dataset.iloc[0:0].copy()
+
+    filtered = dataset[dataset["symbol"].isin(active_symbols)].copy()
+    return filtered.reset_index(drop=True)
+
+
 def fetch_market_data(indicators: Iterable[dict], period: str = "1y", interval: str = "1d") -> pd.DataFrame:
     frames: list[pd.DataFrame] = []
     fetched_at = datetime.now(timezone.utc).isoformat()
@@ -165,6 +177,8 @@ def fetch_indicator_frame(indicator: dict, fetched_at: str, period: str, interva
         return fetch_boj_main_series(indicator, fetched_at=fetched_at)
     if source_type == "tradingeconomics_latest":
         return fetch_tradingeconomics_latest(indicator, fetched_at=fetched_at)
+    if source_type == "investing_historical_latest":
+        return fetch_investing_historical_latest(indicator, fetched_at=fetched_at)
     return pd.DataFrame(columns=DATASET_COLUMNS)
 
 
@@ -334,6 +348,35 @@ def fetch_boj_main_series(indicator: dict, fetched_at: str) -> pd.DataFrame:
     return enrich_indicator_frame(frame, indicator, fetched_at)
 
 
+def fetch_investing_historical_latest(indicator: dict, fetched_at: str) -> pd.DataFrame:
+    response = requests.get(
+        indicator["url"],
+        headers={"User-Agent": USER_AGENT},
+        timeout=HTTP_TIMEOUT,
+    )
+    response.raise_for_status()
+    text = normalize_page_text(response.text)
+    value = extract_investing_historical_value(text)
+    observation_date = extract_investing_historical_date(text)
+    if value is None or observation_date is None:
+        return pd.DataFrame(columns=DATASET_COLUMNS)
+
+    frame = pd.DataFrame(
+        [
+            {
+                "date": observation_date,
+                "open": value,
+                "high": value,
+                "low": value,
+                "close": value,
+                "adj_close": value,
+                "volume": pd.NA,
+            }
+        ]
+    )
+    return enrich_indicator_frame(frame, indicator, fetched_at)
+
+
 def normalize_page_text(html: str) -> str:
     without_tags = re.sub(r"<[^>]+>", " ", html)
     return re.sub(r"\s+", " ", without_tags)
@@ -357,6 +400,37 @@ def extract_month_reference_date(text: str) -> str | None:
     if not match:
         return None
     return parse_month_year(match.group(1), int(match.group(2)))
+
+
+def extract_investing_historical_value(text: str) -> float | None:
+    patterns = [
+        r"Date\s*\|\s*Price.*?\|\s*---.*?([0-9][0-9,]*(?:\.[0-9]+)?)\s*\|",
+        r"Historical Data.*?Date\s*\|\s*Price.*?([0-9][0-9,]*(?:\.[0-9]+)?)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL)
+        if match:
+            return float(match.group(1).replace(",", ""))
+    return None
+
+
+def extract_investing_historical_date(text: str) -> str | None:
+    patterns = [
+        r"Date\s*\|\s*Price.*?\|\s*---.*?([A-Za-z]{3,9}\s+\d{1,2},\s+\d{4})\s*\|",
+        r"Daily\s+\d{1,2}[/-]\d{1,2}[/-]\d{4}\s*-\s*\d{1,2}[/-]\d{1,2}[/-]\d{4}.*?([A-Za-z]{3,9}\s+\d{1,2},\s+\d{4})",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL)
+        if match:
+            try:
+                parsed = datetime.strptime(match.group(1), "%b %d, %Y")
+            except ValueError:
+                try:
+                    parsed = datetime.strptime(match.group(1), "%B %d, %Y")
+                except ValueError:
+                    continue
+            return parsed.strftime("%Y-%m-%d")
+    return None
 
 
 def parse_month_year(month_name: str, year_value: int) -> str:

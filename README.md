@@ -18,7 +18,6 @@
 - EUR/USD
 - EUR/JPY
 - WTI Crude Oil
-- Naphtha
 - Semiconductor Index (SOX)
 - Baltic Dry Index
 
@@ -87,5 +86,6 @@ Use the imported Sheets as data sources.
 ## Notes
 
 - FRED series are pulled as historical series.
-- PMI, Naphtha and BDI are scraped from public pages as latest values and accumulated over time.
+- PMI is scraped from a public page as a latest value and accumulated over time.
+- BDI is fetched from Investing.com historical data and accumulated over time.
 - Free data sources can change page structure, so periodic maintenance may be needed.

@@ -18,6 +18,7 @@ from src.data_pipeline import (
     build_latest_snapshot,
     fetch_market_data,
     filter_indicators_by_refresh,
+    filter_history_to_active_symbols,
     load_csv,
     load_indicator_config,
     merge_history_frames,
@@ -33,6 +34,7 @@ def main(refresh: str | None = None) -> None:
     dataset = fetch_market_data(indicators=indicators, period="1y", interval="1d")
     existing_history = load_csv(HISTORY_PATH)
     merged_history = merge_history_frames(existing_history, dataset)
+    merged_history = filter_history_to_active_symbols(merged_history, indicators)
     history_lite = build_history_lite(merged_history)
     segmented_exports = build_segmented_history_exports(merged_history)
     latest_snapshot = build_latest_snapshot(merged_history)

@@ -69,18 +69,6 @@
     "refresh": "daily"
   },
   {
-    "symbol": "NAPHTHA_COMMODITY",
-    "name": "Naphtha",
-    "category": "Commodity",
-    "region": "Global",
-    "source": "Trading Economics",
-    "source_type": "tradingeconomics_latest",
-    "url": "https://tradingeconomics.com/commodity/naphtha",
-    "page_label": "Naphtha",
-    "unit": "USD/T",
-    "refresh": "daily"
-  },
-  {
     "symbol": "NASDAQSOX",
     "name": "Semiconductor Index (SOX)",
     "category": "Semiconductor",
@@ -96,10 +84,9 @@
     "name": "Baltic Dry Index",
     "category": "Shipping",
     "region": "Global",
-    "source": "Trading Economics",
-    "source_type": "tradingeconomics_latest",
-    "url": "https://tradingeconomics.com/commodity/baltic",
-    "page_label": "Baltic Dry",
+    "source": "Investing.com",
+    "source_type": "investing_historical_latest",
+    "url": "https://www.investing.com/indices/baltic-dry-historical-data",
     "unit": "Index Points",
     "refresh": "daily"
   }

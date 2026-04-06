@@ -54,6 +54,16 @@
 2026-03-18,EUR/JPY,FX,Global,daily,183.609324
 2026-03-19,EUR/JPY,FX,Global,daily,182.15578499999998
 2026-03-20,EUR/JPY,FX,Global,daily,183.833818
+2026-03-23,EUR/JPY,FX,Global,daily,183.88569
+2026-03-24,EUR/JPY,FX,Global,daily,183.97442
+2026-03-25,EUR/JPY,FX,Global,daily,184.1944
+2026-03-26,EUR/JPY,FX,Global,daily,184.26802999999998
+2026-03-27,EUR/JPY,FX,Global,daily,184.50431999999998
+2026-03-30,EUR/JPY,FX,Global,daily,182.679846
+2026-03-31,EUR/JPY,FX,Global,daily,183.228344
+2026-04-01,EUR/JPY,FX,Global,daily,184.232882
+2026-04-02,EUR/JPY,FX,Global,daily,183.97396400000002
+2026-04-03,EUR/JPY,FX,Global,daily,183.953172
 2026-01-02,EUR/USD,FX,Global,daily,1.1738
 2026-01-05,EUR/USD,FX,Global,daily,1.1715
 2026-01-06,EUR/USD,FX,Global,daily,1.1689
@@ -108,8 +118,16 @@
 2026-03-18,EUR/USD,FX,Global,daily,1.1513
 2026-03-19,EUR/USD,FX,Global,daily,1.1515
 2026-03-20,EUR/USD,FX,Global,daily,1.1543
-2026-03-15,Naphtha,Commodity,Global,daily,799.0
-2026-03-18,Naphtha,Commodity,Global,daily,824.35
+2026-03-23,EUR/USD,FX,Global,daily,1.1587
+2026-03-24,EUR/USD,FX,Global,daily,1.1578
+2026-03-25,EUR/USD,FX,Global,daily,1.157
+2026-03-26,EUR/USD,FX,Global,daily,1.1542
+2026-03-27,EUR/USD,FX,Global,daily,1.152
+2026-03-30,EUR/USD,FX,Global,daily,1.1454
+2026-03-31,EUR/USD,FX,Global,daily,1.1518
+2026-04-01,EUR/USD,FX,Global,daily,1.1614
+2026-04-02,EUR/USD,FX,Global,daily,1.1546
+2026-04-03,EUR/USD,FX,Global,daily,1.1523
 2026-01-02,Semiconductor Index (SOX),Semiconductor,United States,daily,7367.47
 2026-01-05,Semiconductor Index (SOX),Semiconductor,United States,daily,7446.45
 2026-01-06,Semiconductor Index (SOX),Semiconductor,United States,daily,7650.93
@@ -169,6 +187,10 @@
 2026-03-25,Semiconductor Index (SOX),Semiconductor,United States,daily,7967.74
 2026-03-26,Semiconductor Index (SOX),Semiconductor,United States,daily,7585.87
 2026-03-27,Semiconductor Index (SOX),Semiconductor,United States,daily,7457.67
+2026-03-30,Semiconductor Index (SOX),Semiconductor,United States,daily,7142.33
+2026-03-31,Semiconductor Index (SOX),Semiconductor,United States,daily,7588.2
+2026-04-01,Semiconductor Index (SOX),Semiconductor,United States,daily,7802.31
+2026-04-02,Semiconductor Index (SOX),Semiconductor,United States,daily,7833.39
 2026-01-02,USD/JPY,FX,Global,daily,156.72
 2026-01-05,USD/JPY,FX,Global,daily,156.32
 2026-01-06,USD/JPY,FX,Global,daily,156.7
@@ -223,6 +245,16 @@
 2026-03-18,USD/JPY,FX,Global,daily,159.48
 2026-03-19,USD/JPY,FX,Global,daily,158.19
 2026-03-20,USD/JPY,FX,Global,daily,159.26
+2026-03-23,USD/JPY,FX,Global,daily,158.7
+2026-03-24,USD/JPY,FX,Global,daily,158.9
+2026-03-25,USD/JPY,FX,Global,daily,159.2
+2026-03-26,USD/JPY,FX,Global,daily,159.65
+2026-03-27,USD/JPY,FX,Global,daily,160.16
+2026-03-30,USD/JPY,FX,Global,daily,159.49
+2026-03-31,USD/JPY,FX,Global,daily,159.08
+2026-04-01,USD/JPY,FX,Global,daily,158.63
+2026-04-02,USD/JPY,FX,Global,daily,159.34
+2026-04-03,USD/JPY,FX,Global,daily,159.64
 2026-01-02,WTI Crude Oil,Commodity,Global,daily,57.21
 2026-01-05,WTI Crude Oil,Commodity,Global,daily,58.1
 2026-01-06,WTI Crude Oil,Commodity,Global,daily,56.97
@@ -278,3 +310,8 @@
 2026-03-19,WTI Crude Oil,Commodity,Global,daily,96.11
 2026-03-20,WTI Crude Oil,Commodity,Global,daily,98.71
 2026-03-23,WTI Crude Oil,Commodity,Global,daily,89.33
+2026-03-24,WTI Crude Oil,Commodity,Global,daily,93.18
+2026-03-25,WTI Crude Oil,Commodity,Global,daily,91.51
+2026-03-26,WTI Crude Oil,Commodity,Global,daily,96.18
+2026-03-27,WTI Crude Oil,Commodity,Global,daily,101.26
+2026-03-30,WTI Crude Oil,Commodity,Global,daily,104.69
