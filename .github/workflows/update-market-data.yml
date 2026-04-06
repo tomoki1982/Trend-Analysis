@@ -26,6 +26,11 @@ jobs:
         run: pip install -r requirements.txt
       - name: Update daily indicators
         run: python scripts/fetch_indicators.py --refresh daily
+      - name: Refresh from latest main and rebuild daily CSV
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          python scripts/fetch_indicators.py --refresh daily
       - name: Commit CSV updates
         run: |
           git config user.name "github-actions[bot]"
@@ -53,6 +58,12 @@ jobs:
         run: python scripts/fetch_indicators.py --refresh monthly
       - name: Build CGPI dashboard CSV
         run: python scripts/process_cgpi_zip.py
+      - name: Refresh from latest main and rebuild monthly CSV
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          python scripts/fetch_indicators.py --refresh monthly
+          python scripts/process_cgpi_zip.py
       - name: Commit CSV updates
         run: |
           git config user.name "github-actions[bot]"
