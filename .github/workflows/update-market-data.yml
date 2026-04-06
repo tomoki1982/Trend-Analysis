@@ -45,7 +45,8 @@ jobs:
           git push origin HEAD:main
 
   update-monthly:
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 1 * *'
+    needs: update-daily
+    if: always() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 1 * *') && (needs.update-daily.result == 'success' || needs.update-daily.result == 'skipped')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -68,7 +69,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest_snapshot.csv
           git add data/cgpi_dashboard.csv
           git add data/cgpi_*.csv
           git add data/cgpi_*_lite.csv
