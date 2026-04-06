@@ -79,15 +79,4 @@
     "unit": "Index",
     "refresh": "daily"
   },
-  {
-    "symbol": "BALTIC_DRY",
-    "name": "Baltic Dry Index",
-    "category": "Shipping",
-    "region": "Global",
-    "source": "Investing.com",
-    "source_type": "investing_historical_latest",
-    "url": "https://www.investing.com/indices/baltic-dry-historical-data",
-    "unit": "Index Points",
-    "refresh": "daily"
-  }
 ]

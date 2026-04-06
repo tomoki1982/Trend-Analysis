@@ -19,7 +19,6 @@
 - EUR/JPY
 - WTI Crude Oil
 - Semiconductor Index (SOX)
-- Baltic Dry Index
 
 ## Local Setup
 
@@ -87,5 +86,4 @@ Use the imported Sheets as data sources.
 
 - FRED series are pulled as historical series.
 - PMI is scraped from a public page as a latest value and accumulated over time.
-- BDI is fetched from Investing.com historical data and accumulated over time.
 - Free data sources can change page structure, so periodic maintenance may be needed.
