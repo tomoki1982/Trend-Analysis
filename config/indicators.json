@@ -78,5 +78,5 @@
     "series_id": "NASDAQSOX",
     "unit": "Index",
     "refresh": "daily"
-  },
+  }
 ]
