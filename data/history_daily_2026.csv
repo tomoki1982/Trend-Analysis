@@ -145,11 +145,16 @@
 2026-07-29,EUR/JPY,FX,Global,daily,186.53822400000004
 2026-07-30,EUR/JPY,FX,Global,daily,183.741334
 2026-07-31,EUR/JPY,FX,Global,daily,183.336404
-2026-08-03,EUR/JPY,FX,Global,daily,186.236496
+2026-08-03,EUR/JPY,FX,Global,daily,180.64526400000003
 2026-08-04,EUR/JPY,FX,Global,daily,181.481088
 2026-08-05,EUR/JPY,FX,Global,daily,182.015361
 2026-08-06,EUR/JPY,FX,Global,daily,182.55024499999996
 2026-08-07,EUR/JPY,FX,Global,daily,182.100486
+2026-08-10,EUR/JPY,FX,Global,daily,183.56128
+2026-08-11,EUR/JPY,FX,Global,daily,183.82227500000002
+2026-08-12,EUR/JPY,FX,Global,daily,183.75141999999997
+2026-08-13,EUR/JPY,FX,Global,daily,183.746485
+2026-08-14,EUR/JPY,FX,Global,daily,184.381101
 2026-01-02,EUR/USD,FX,Global,daily,1.1738
 2026-01-05,EUR/USD,FX,Global,daily,1.1715
 2026-01-06,EUR/USD,FX,Global,daily,1.1689
@@ -296,11 +301,16 @@
 2026-07-29,EUR/USD,FX,Global,daily,1.1384
 2026-07-30,EUR/USD,FX,Global,daily,1.1522
 2026-07-31,EUR/USD,FX,Global,daily,1.1519
-2026-08-03,EUR/USD,FX,Global,daily,1.1376
+2026-08-03,EUR/USD,FX,Global,daily,1.1509
 2026-08-04,EUR/USD,FX,Global,daily,1.1527
 2026-08-05,EUR/USD,FX,Global,daily,1.1547
 2026-08-06,EUR/USD,FX,Global,daily,1.1521
 2026-08-07,EUR/USD,FX,Global,daily,1.1559
+2026-08-10,EUR/USD,FX,Global,daily,1.1552
+2026-08-11,EUR/USD,FX,Global,daily,1.1543
+2026-08-12,EUR/USD,FX,Global,daily,1.154
+2026-08-13,EUR/USD,FX,Global,daily,1.1531
+2026-08-14,EUR/USD,FX,Global,daily,1.1581
 2026-01-02,Semiconductor Index (SOX),Semiconductor,United States,daily,7367.47
 2026-01-05,Semiconductor Index (SOX),Semiconductor,United States,daily,7446.45
 2026-01-06,Semiconductor Index (SOX),Semiconductor,United States,daily,7650.93
@@ -602,11 +612,16 @@
 2026-07-29,USD/JPY,FX,Global,daily,163.86
 2026-07-30,USD/JPY,FX,Global,daily,159.47
 2026-07-31,USD/JPY,FX,Global,daily,159.16
-2026-08-03,USD/JPY,FX,Global,daily,163.71
+2026-08-03,USD/JPY,FX,Global,daily,156.96
 2026-08-04,USD/JPY,FX,Global,daily,157.44
 2026-08-05,USD/JPY,FX,Global,daily,157.63
 2026-08-06,USD/JPY,FX,Global,daily,158.45
 2026-08-07,USD/JPY,FX,Global,daily,157.54
+2026-08-10,USD/JPY,FX,Global,daily,158.9
+2026-08-11,USD/JPY,FX,Global,daily,159.25
+2026-08-12,USD/JPY,FX,Global,daily,159.23
+2026-08-13,USD/JPY,FX,Global,daily,159.35
+2026-08-14,USD/JPY,FX,Global,daily,159.21
 2026-01-02,WTI Crude Oil,Commodity,Global,daily,57.21
 2026-01-05,WTI Crude Oil,Commodity,Global,daily,58.1
 2026-01-06,WTI Crude Oil,Commodity,Global,daily,56.97
