@@ -1,34 +1,34 @@
 ﻿date,indicator_name,category,region,refresh,close
 2026-01-02,EUR/JPY,FX,Global,daily,183.957936
-2026-01-05,EUR/JPY,FX,Global,daily,183.12887999999998
+2026-01-05,EUR/JPY,FX,Global,daily,183.12888
 2026-01-06,EUR/JPY,FX,Global,daily,183.16663
 2026-01-07,EUR/JPY,FX,Global,daily,183.21737
 2026-01-08,EUR/JPY,FX,Global,daily,182.86695
-2026-01-09,EUR/JPY,FX,Global,daily,183.89863799999998
+2026-01-09,EUR/JPY,FX,Global,daily,183.898638
 2026-01-12,EUR/JPY,FX,Global,daily,184.59268
 2026-01-13,EUR/JPY,FX,Global,daily,185.24127600000003
 2026-01-14,EUR/JPY,FX,Global,daily,184.300515
-2026-01-15,EUR/JPY,FX,Global,daily,183.93925000000002
+2026-01-15,EUR/JPY,FX,Global,daily,183.93925
 2026-01-16,EUR/JPY,FX,Global,daily,183.287398
-2026-01-20,EUR/JPY,FX,Global,daily,185.34707099999997
+2026-01-20,EUR/JPY,FX,Global,daily,185.347071
 2026-01-21,EUR/JPY,FX,Global,daily,185.12628
 2026-01-22,EUR/JPY,FX,Global,daily,185.882968
 2026-01-23,EUR/JPY,FX,Global,daily,185.475647
 2026-01-26,EUR/JPY,FX,Global,daily,182.901768
 2026-01-27,EUR/JPY,FX,Global,daily,183.32994
 2026-01-28,EUR/JPY,FX,Global,daily,183.41376
-2026-01-29,EUR/JPY,FX,Global,daily,182.58458399999998
+2026-01-29,EUR/JPY,FX,Global,daily,182.584584
 2026-01-30,EUR/JPY,FX,Global,daily,183.43309
 2026-02-02,EUR/JPY,FX,Global,daily,183.59885
-2026-02-03,EUR/JPY,FX,Global,daily,184.02182999999997
+2026-02-03,EUR/JPY,FX,Global,daily,184.02183
 2026-02-04,EUR/JPY,FX,Global,daily,184.846783
-2026-02-05,EUR/JPY,FX,Global,daily,185.18518199999997
+2026-02-05,EUR/JPY,FX,Global,daily,185.185182
 2026-02-06,EUR/JPY,FX,Global,daily,185.56652
-2026-02-09,EUR/JPY,FX,Global,daily,185.70398400000002
+2026-02-09,EUR/JPY,FX,Global,daily,185.703984
 2026-02-10,EUR/JPY,FX,Global,daily,183.562344
 2026-02-11,EUR/JPY,FX,Global,daily,181.742012
-2026-02-12,EUR/JPY,FX,Global,daily,181.18367999999998
-2026-02-13,EUR/JPY,FX,Global,daily,181.33799000000002
+2026-02-12,EUR/JPY,FX,Global,daily,181.18368
+2026-02-13,EUR/JPY,FX,Global,daily,181.33799
 2026-02-17,EUR/JPY,FX,Global,daily,181.688667
 2026-02-18,EUR/JPY,FX,Global,daily,182.40545
 2026-02-19,EUR/JPY,FX,Global,daily,182.263952
@@ -39,165 +39,30 @@
 2026-02-26,EUR/JPY,FX,Global,daily,184.108496
 2026-02-27,EUR/JPY,FX,Global,daily,184.48231
 2026-03-02,EUR/JPY,FX,Global,daily,184.09412
-2026-03-03,EUR/JPY,FX,Global,daily,182.98347600000002
+2026-03-03,EUR/JPY,FX,Global,daily,182.983476
 2026-03-04,EUR/JPY,FX,Global,daily,182.635134
 2026-03-05,EUR/JPY,FX,Global,daily,182.55643000000003
 2026-03-06,EUR/JPY,FX,Global,daily,182.956984
 2026-03-09,EUR/JPY,FX,Global,daily,183.246336
 2026-03-10,EUR/JPY,FX,Global,daily,183.57248
-2026-03-11,EUR/JPY,FX,Global,daily,183.70277800000002
-2026-03-12,EUR/JPY,FX,Global,daily,183.44176199999998
+2026-03-11,EUR/JPY,FX,Global,daily,183.702778
+2026-03-12,EUR/JPY,FX,Global,daily,183.441762
 2026-03-13,EUR/JPY,FX,Global,daily,182.577576
 2026-03-16,EUR/JPY,FX,Global,daily,182.98791000000003
-2026-03-17,EUR/JPY,FX,Global,daily,183.28207500000002
+2026-03-17,EUR/JPY,FX,Global,daily,183.282075
 2026-03-18,EUR/JPY,FX,Global,daily,183.609324
-2026-03-19,EUR/JPY,FX,Global,daily,182.15578499999998
+2026-03-19,EUR/JPY,FX,Global,daily,182.155785
 2026-03-20,EUR/JPY,FX,Global,daily,183.833818
 2026-03-23,EUR/JPY,FX,Global,daily,183.88569
 2026-03-24,EUR/JPY,FX,Global,daily,183.97442
 2026-03-25,EUR/JPY,FX,Global,daily,184.1944
-2026-03-26,EUR/JPY,FX,Global,daily,184.26802999999998
-2026-03-27,EUR/JPY,FX,Global,daily,184.50431999999998
+2026-03-26,EUR/JPY,FX,Global,daily,184.26803
+2026-03-27,EUR/JPY,FX,Global,daily,184.50432
 2026-03-30,EUR/JPY,FX,Global,daily,182.679846
 2026-03-31,EUR/JPY,FX,Global,daily,183.228344
 2026-04-01,EUR/JPY,FX,Global,daily,184.232882
-2026-04-02,EUR/JPY,FX,Global,daily,183.97396400000002
+2026-04-02,EUR/JPY,FX,Global,daily,183.973964
 2026-04-03,EUR/JPY,FX,Global,daily,183.953172
-2026-04-06,EUR/JPY,FX,Global,daily,184.385195
-2026-04-07,EUR/JPY,FX,Global,daily,185.02029000000002
-2026-04-08,EUR/JPY,FX,Global,daily,185.094554
-2026-04-09,EUR/JPY,FX,Global,daily,185.97322200000002
-2026-04-10,EUR/JPY,FX,Global,daily,186.653606
-2026-04-13,EUR/JPY,FX,Global,daily,187.05554
-2026-04-14,EUR/JPY,FX,Global,daily,187.370781
-2026-04-15,EUR/JPY,FX,Global,daily,187.627698
-2026-04-16,EUR/JPY,FX,Global,daily,187.43218099999999
-2026-04-17,EUR/JPY,FX,Global,daily,186.57380999999998
-2026-04-20,EUR/JPY,FX,Global,daily,186.98081000000002
-2026-04-21,EUR/JPY,FX,Global,daily,187.315128
-2026-04-22,EUR/JPY,FX,Global,daily,186.82658600000002
-2026-04-23,EUR/JPY,FX,Global,daily,186.60857600000003
-2026-04-24,EUR/JPY,FX,Global,daily,186.72633
-2026-04-27,EUR/JPY,FX,Global,daily,186.863099
-2026-04-28,EUR/JPY,FX,Global,daily,186.889395
-2026-04-29,EUR/JPY,FX,Global,daily,187.388985
-2026-04-30,EUR/JPY,FX,Global,daily,183.746514
-2026-05-01,EUR/JPY,FX,Global,daily,184.27138
-2026-05-04,EUR/JPY,FX,Global,daily,183.904258
-2026-05-05,EUR/JPY,FX,Global,daily,184.595976
-2026-05-06,EUR/JPY,FX,Global,daily,183.863932
-2026-05-07,EUR/JPY,FX,Global,daily,184.08307199999996
-2026-05-08,EUR/JPY,FX,Global,daily,184.41227199999997
-2026-05-11,EUR/JPY,FX,Global,daily,184.99311999999998
-2026-05-12,EUR/JPY,FX,Global,daily,185.041143
-2026-05-13,EUR/JPY,FX,Global,daily,184.846424
-2026-05-14,EUR/JPY,FX,Global,daily,184.605824
-2026-05-15,EUR/JPY,FX,Global,daily,184.50886300000002
-2026-05-18,EUR/JPY,FX,Global,daily,185.02106700000002
-2026-05-19,EUR/JPY,FX,Global,daily,184.599422
-2026-05-20,EUR/JPY,FX,Global,daily,184.57208
-2026-05-21,EUR/JPY,FX,Global,daily,184.450524
-2026-05-22,EUR/JPY,FX,Global,daily,184.71976
-2026-05-26,EUR/JPY,FX,Global,daily,185.17632
-2026-05-27,EUR/JPY,FX,Global,daily,185.479557
-2026-05-28,EUR/JPY,FX,Global,daily,185.556921
-2026-05-29,EUR/JPY,FX,Global,daily,185.96471699999998
-2026-06-01,EUR/JPY,FX,Global,daily,185.588784
-2026-06-02,EUR/JPY,FX,Global,daily,186.109012
-2026-06-03,EUR/JPY,FX,Global,daily,185.64518500000003
-2026-06-04,EUR/JPY,FX,Global,daily,186.029113
-2026-06-05,EUR/JPY,FX,Global,daily,184.827858
-2026-06-08,EUR/JPY,FX,Global,daily,184.85854
-2026-06-09,EUR/JPY,FX,Global,daily,185.16178799999997
-2026-06-10,EUR/JPY,FX,Global,daily,185.34285
-2026-06-11,EUR/JPY,FX,Global,daily,184.82726499999998
-2026-06-12,EUR/JPY,FX,Global,daily,185.445752
-2026-06-15,EUR/JPY,FX,Global,daily,185.81597999999997
-2026-06-16,EUR/JPY,FX,Global,daily,186.292985
-2026-06-17,EUR/JPY,FX,Global,daily,185.743046
-2026-06-18,EUR/JPY,FX,Global,daily,185.09139000000002
-2026-06-22,EUR/JPY,FX,Global,daily,184.638232
-2026-06-23,EUR/JPY,FX,Global,daily,183.89236500000004
-2026-06-24,EUR/JPY,FX,Global,daily,183.565248
-2026-06-25,EUR/JPY,FX,Global,daily,184.061295
-2026-06-26,EUR/JPY,FX,Global,daily,184.352301
-2026-06-29,EUR/JPY,FX,Global,daily,185.00502500000002
-2026-06-30,EUR/JPY,FX,Global,daily,185.651837
-2026-07-01,EUR/JPY,FX,Global,daily,184.88754400000002
-2026-07-02,EUR/JPY,FX,Global,daily,184.19832000000002
-2026-07-06,EUR/JPY,FX,Global,daily,185.421128
-2026-07-07,EUR/JPY,FX,Global,daily,184.949793
-2026-07-08,EUR/JPY,FX,Global,daily,185.37873199999999
-2026-07-09,EUR/JPY,FX,Global,daily,185.64353099999997
-2026-07-10,EUR/JPY,FX,Global,daily,184.50637799999998
-2026-07-13,EUR/JPY,FX,Global,daily,185.077264
-2026-07-14,EUR/JPY,FX,Global,daily,185.293592
-2026-07-15,EUR/JPY,FX,Global,daily,185.411868
-2026-07-16,EUR/JPY,FX,Global,daily,185.92217399999998
-2026-07-17,EUR/JPY,FX,Global,daily,185.81992
-2026-07-20,EUR/JPY,FX,Global,daily,185.531449
-2026-07-21,EUR/JPY,FX,Global,daily,185.961808
-2026-07-22,EUR/JPY,FX,Global,daily,186.139512
-2026-07-23,EUR/JPY,FX,Global,daily,186.28974000000002
-2026-07-24,EUR/JPY,FX,Global,daily,186.38383500000003
-2026-07-27,EUR/JPY,FX,Global,daily,186.236496
-2026-07-28,EUR/JPY,FX,Global,daily,186.577365
-2026-07-29,EUR/JPY,FX,Global,daily,186.53822400000004
-2026-07-30,EUR/JPY,FX,Global,daily,183.741334
-2026-07-31,EUR/JPY,FX,Global,daily,183.336404
-2026-08-03,EUR/JPY,FX,Global,daily,180.64526400000003
-2026-08-04,EUR/JPY,FX,Global,daily,181.481088
-2026-08-05,EUR/JPY,FX,Global,daily,182.015361
-2026-08-06,EUR/JPY,FX,Global,daily,182.55024499999996
-2026-08-07,EUR/JPY,FX,Global,daily,182.100486
-2026-08-10,EUR/JPY,FX,Global,daily,183.56128
-2026-08-11,EUR/JPY,FX,Global,daily,183.82227500000002
-2026-08-12,EUR/JPY,FX,Global,daily,183.75141999999997
-2026-08-13,EUR/JPY,FX,Global,daily,183.746485
-2026-08-14,EUR/JPY,FX,Global,daily,184.381101
-2026-08-17,EUR/JPY,FX,Global,daily,184.69099400000002
-2026-08-18,EUR/JPY,FX,Global,daily,184.79364
-2026-08-19,EUR/JPY,FX,Global,daily,184.81608
-2026-08-20,EUR/JPY,FX,Global,daily,185.52091499999997
-2026-08-21,EUR/JPY,FX,Global,daily,185.670444
-2026-08-24,EUR/JPY,FX,Global,daily,185.671805
-2026-08-25,EUR/JPY,FX,Global,daily,185.845833
-2026-08-26,EUR/JPY,FX,Global,daily,185.67033600000002
-2026-08-27,EUR/JPY,FX,Global,daily,185.60160399999998
-2026-08-28,EUR/JPY,FX,Global,daily,185.53320599999998
-2026-08-31,EUR/JPY,FX,Global,daily,185.569958
-2026-09-01,EUR/JPY,FX,Global,daily,185.522779
-2026-09-02,EUR/JPY,FX,Global,daily,184.069368
-2026-09-03,EUR/JPY,FX,Global,daily,180.60979700000001
-2026-09-04,EUR/JPY,FX,Global,daily,181.36859800000002
-2026-09-08,EUR/JPY,FX,Global,daily,179.33484800000002
-2026-09-09,EUR/JPY,FX,Global,daily,178.47445000000002
-2026-09-10,EUR/JPY,FX,Global,daily,179.156374
-2026-09-11,EUR/JPY,FX,Global,daily,178.36508400000002
-2026-09-14,EUR/JPY,FX,Global,daily,178.339658
-2026-09-15,EUR/JPY,FX,Global,daily,179.027962
-2026-09-16,EUR/JPY,FX,Global,daily,178.931304
-2026-09-17,EUR/JPY,FX,Global,daily,178.90021499999997
-2026-09-18,EUR/JPY,FX,Global,daily,179.83576800000003
-2026-09-21,EUR/JPY,FX,Global,daily,180.590874
-2026-09-22,EUR/JPY,FX,Global,daily,180.11116
-2026-09-23,EUR/JPY,FX,Global,daily,180.36702
-2026-09-24,EUR/JPY,FX,Global,daily,180.739716
-2026-09-25,EUR/JPY,FX,Global,daily,179.18519999999998
-2026-09-28,EUR/JPY,FX,Global,daily,178.962048
-2026-09-29,EUR/JPY,FX,Global,daily,178.542
-2026-09-30,EUR/JPY,FX,Global,daily,178.400125
-2026-10-01,EUR/JPY,FX,Global,daily,177.050016
-2026-10-02,EUR/JPY,FX,Global,daily,177.67827899999997
-2026-10-05,EUR/JPY,FX,Global,daily,177.100167
-2026-10-06,EUR/JPY,FX,Global,daily,178.074744
-2026-10-07,EUR/JPY,FX,Global,daily,176.87765700000003
-2026-10-08,EUR/JPY,FX,Global,daily,177.20293600000002
-2026-10-09,EUR/JPY,FX,Global,daily,177.229962
-2026-10-13,EUR/JPY,FX,Global,daily,177.299856
-2026-10-14,EUR/JPY,FX,Global,daily,176.67773200000002
-2026-10-15,EUR/JPY,FX,Global,daily,177.224872
-2026-10-16,EUR/JPY,FX,Global,daily,177.4498
 2026-01-02,EUR/USD,FX,Global,daily,1.1738
 2026-01-05,EUR/USD,FX,Global,daily,1.1715
 2026-01-06,EUR/USD,FX,Global,daily,1.1689
@@ -262,141 +127,6 @@
 2026-04-01,EUR/USD,FX,Global,daily,1.1614
 2026-04-02,EUR/USD,FX,Global,daily,1.1546
 2026-04-03,EUR/USD,FX,Global,daily,1.1523
-2026-04-06,EUR/USD,FX,Global,daily,1.1545
-2026-04-07,EUR/USD,FX,Global,daily,1.1571
-2026-04-08,EUR/USD,FX,Global,daily,1.1686
-2026-04-09,EUR/USD,FX,Global,daily,1.1706
-2026-04-10,EUR/USD,FX,Global,daily,1.1723
-2026-04-13,EUR/USD,FX,Global,daily,1.171
-2026-04-14,EUR/USD,FX,Global,daily,1.1791
-2026-04-15,EUR/USD,FX,Global,daily,1.1799
-2026-04-16,EUR/USD,FX,Global,daily,1.1783
-2026-04-17,EUR/USD,FX,Global,daily,1.1801
-2026-04-20,EUR/USD,FX,Global,daily,1.1785
-2026-04-21,EUR/USD,FX,Global,daily,1.1752
-2026-04-22,EUR/USD,FX,Global,daily,1.1714
-2026-04-23,EUR/USD,FX,Global,daily,1.1704
-2026-04-24,EUR/USD,FX,Global,daily,1.1718
-2026-04-27,EUR/USD,FX,Global,daily,1.1731
-2026-04-28,EUR/USD,FX,Global,daily,1.1715
-2026-04-29,EUR/USD,FX,Global,daily,1.1695
-2026-04-30,EUR/USD,FX,Global,daily,1.1729
-2026-05-01,EUR/USD,FX,Global,daily,1.1755
-2026-05-04,EUR/USD,FX,Global,daily,1.1698
-2026-05-05,EUR/USD,FX,Global,daily,1.1707
-2026-05-06,EUR/USD,FX,Global,daily,1.1753
-2026-05-07,EUR/USD,FX,Global,daily,1.1764
-2026-05-08,EUR/USD,FX,Global,daily,1.1773
-2026-05-11,EUR/USD,FX,Global,daily,1.178
-2026-05-12,EUR/USD,FX,Global,daily,1.1733
-2026-05-13,EUR/USD,FX,Global,daily,1.1711
-2026-05-14,EUR/USD,FX,Global,daily,1.1678
-2026-05-15,EUR/USD,FX,Global,daily,1.1627
-2026-05-18,EUR/USD,FX,Global,daily,1.1649
-2026-05-19,EUR/USD,FX,Global,daily,1.1602
-2026-05-20,EUR/USD,FX,Global,daily,1.162
-2026-05-21,EUR/USD,FX,Global,daily,1.1589
-2026-05-22,EUR/USD,FX,Global,daily,1.1603
-2026-05-26,EUR/USD,FX,Global,daily,1.162
-2026-05-27,EUR/USD,FX,Global,daily,1.1631
-2026-05-28,EUR/USD,FX,Global,daily,1.1649
-2026-05-29,EUR/USD,FX,Global,daily,1.1679
-2026-06-01,EUR/USD,FX,Global,daily,1.1624
-2026-06-02,EUR/USD,FX,Global,daily,1.1642
-2026-06-03,EUR/USD,FX,Global,daily,1.1605
-2026-06-04,EUR/USD,FX,Global,daily,1.1629
-2026-06-05,EUR/USD,FX,Global,daily,1.1533
-2026-06-08,EUR/USD,FX,Global,daily,1.1545
-2026-06-09,EUR/USD,FX,Global,daily,1.1556
-2026-06-10,EUR/USD,FX,Global,daily,1.155
-2026-06-11,EUR/USD,FX,Global,daily,1.1515
-2026-06-12,EUR/USD,FX,Global,daily,1.1573
-2026-06-15,EUR/USD,FX,Global,daily,1.1599
-2026-06-16,EUR/USD,FX,Global,daily,1.1615
-2026-06-17,EUR/USD,FX,Global,daily,1.1593
-2026-06-18,EUR/USD,FX,Global,daily,1.147
-2026-06-22,EUR/USD,FX,Global,daily,1.1432
-2026-06-23,EUR/USD,FX,Global,daily,1.1383
-2026-06-24,EUR/USD,FX,Global,daily,1.1348
-2026-06-25,EUR/USD,FX,Global,daily,1.1385
-2026-06-26,EUR/USD,FX,Global,daily,1.1403
-2026-06-29,EUR/USD,FX,Global,daily,1.1425
-2026-06-30,EUR/USD,FX,Global,daily,1.1417
-2026-07-01,EUR/USD,FX,Global,daily,1.1384
-2026-07-02,EUR/USD,FX,Global,daily,1.1448
-2026-07-06,EUR/USD,FX,Global,daily,1.1426
-2026-07-07,EUR/USD,FX,Global,daily,1.1423
-2026-07-08,EUR/USD,FX,Global,daily,1.1396
-2026-07-09,EUR/USD,FX,Global,daily,1.1439
-2026-07-10,EUR/USD,FX,Global,daily,1.1438
-2026-07-13,EUR/USD,FX,Global,daily,1.1402
-2026-07-14,EUR/USD,FX,Global,daily,1.1428
-2026-07-15,EUR/USD,FX,Global,daily,1.1436
-2026-07-16,EUR/USD,FX,Global,daily,1.1447
-2026-07-17,EUR/USD,FX,Global,daily,1.144
-2026-07-20,EUR/USD,FX,Global,daily,1.1411
-2026-07-21,EUR/USD,FX,Global,daily,1.1408
-2026-07-22,EUR/USD,FX,Global,daily,1.1414
-2026-07-23,EUR/USD,FX,Global,daily,1.1373
-2026-07-24,EUR/USD,FX,Global,daily,1.1385
-2026-07-27,EUR/USD,FX,Global,daily,1.1376
-2026-07-28,EUR/USD,FX,Global,daily,1.1401
-2026-07-29,EUR/USD,FX,Global,daily,1.1384
-2026-07-30,EUR/USD,FX,Global,daily,1.1522
-2026-07-31,EUR/USD,FX,Global,daily,1.1519
-2026-08-03,EUR/USD,FX,Global,daily,1.1509
-2026-08-04,EUR/USD,FX,Global,daily,1.1527
-2026-08-05,EUR/USD,FX,Global,daily,1.1547
-2026-08-06,EUR/USD,FX,Global,daily,1.1521
-2026-08-07,EUR/USD,FX,Global,daily,1.1559
-2026-08-10,EUR/USD,FX,Global,daily,1.1552
-2026-08-11,EUR/USD,FX,Global,daily,1.1543
-2026-08-12,EUR/USD,FX,Global,daily,1.154
-2026-08-13,EUR/USD,FX,Global,daily,1.1531
-2026-08-14,EUR/USD,FX,Global,daily,1.1581
-2026-08-17,EUR/USD,FX,Global,daily,1.1591
-2026-08-18,EUR/USD,FX,Global,daily,1.158
-2026-08-19,EUR/USD,FX,Global,daily,1.1664
-2026-08-20,EUR/USD,FX,Global,daily,1.1679
-2026-08-21,EUR/USD,FX,Global,daily,1.1684
-2026-08-24,EUR/USD,FX,Global,daily,1.1665
-2026-08-25,EUR/USD,FX,Global,daily,1.1673
-2026-08-26,EUR/USD,FX,Global,daily,1.1651
-2026-08-27,EUR/USD,FX,Global,daily,1.1654
-2026-08-28,EUR/USD,FX,Global,daily,1.1598
-2026-08-31,EUR/USD,FX,Global,daily,1.1617
-2026-09-01,EUR/USD,FX,Global,daily,1.1593
-2026-09-02,EUR/USD,FX,Global,daily,1.1592
-2026-09-03,EUR/USD,FX,Global,daily,1.1623
-2026-09-04,EUR/USD,FX,Global,daily,1.1618
-2026-09-08,EUR/USD,FX,Global,daily,1.1627
-2026-09-09,EUR/USD,FX,Global,daily,1.1627
-2026-09-10,EUR/USD,FX,Global,daily,1.1629
-2026-09-11,EUR/USD,FX,Global,daily,1.1604
-2026-09-14,EUR/USD,FX,Global,daily,1.1549
-2026-09-15,EUR/USD,FX,Global,daily,1.1542
-2026-09-16,EUR/USD,FX,Global,daily,1.1538
-2026-09-17,EUR/USD,FX,Global,daily,1.1479
-2026-09-18,EUR/USD,FX,Global,daily,1.1464
-2026-09-21,EUR/USD,FX,Global,daily,1.1469
-2026-09-22,EUR/USD,FX,Global,daily,1.1432
-2026-09-23,EUR/USD,FX,Global,daily,1.1394
-2026-09-24,EUR/USD,FX,Global,daily,1.1373
-2026-09-25,EUR/USD,FX,Global,daily,1.14
-2026-09-28,EUR/USD,FX,Global,daily,1.1367
-2026-09-29,EUR/USD,FX,Global,daily,1.1336
-2026-09-30,EUR/USD,FX,Global,daily,1.1345
-2026-10-01,EUR/USD,FX,Global,daily,1.1232
-2026-10-02,EUR/USD,FX,Global,daily,1.1259
-2026-10-05,EUR/USD,FX,Global,daily,1.1211
-2026-10-06,EUR/USD,FX,Global,daily,1.1262
-2026-10-07,EUR/USD,FX,Global,daily,1.1187
-2026-10-08,EUR/USD,FX,Global,daily,1.1192
-2026-10-09,EUR/USD,FX,Global,daily,1.1193
-2026-10-13,EUR/USD,FX,Global,daily,1.1196
-2026-10-14,EUR/USD,FX,Global,daily,1.1123
-2026-10-15,EUR/USD,FX,Global,daily,1.1204
-2026-10-16,EUR/USD,FX,Global,daily,1.1231
 2026-01-02,Semiconductor Index (SOX),Semiconductor,United States,daily,7367.47
 2026-01-05,Semiconductor Index (SOX),Semiconductor,United States,daily,7446.45
 2026-01-06,Semiconductor Index (SOX),Semiconductor,United States,daily,7650.93
@@ -460,143 +190,6 @@
 2026-03-31,Semiconductor Index (SOX),Semiconductor,United States,daily,7588.2
 2026-04-01,Semiconductor Index (SOX),Semiconductor,United States,daily,7802.31
 2026-04-02,Semiconductor Index (SOX),Semiconductor,United States,daily,7833.39
-2026-04-06,Semiconductor Index (SOX),Semiconductor,United States,daily,7916.1
-2026-04-07,Semiconductor Index (SOX),Semiconductor,United States,daily,8003.87
-2026-04-08,Semiconductor Index (SOX),Semiconductor,United States,daily,8510.92
-2026-04-09,Semiconductor Index (SOX),Semiconductor,United States,daily,8689.53
-2026-04-10,Semiconductor Index (SOX),Semiconductor,United States,daily,8889.83
-2026-04-13,Semiconductor Index (SOX),Semiconductor,United States,daily,9039.52
-2026-04-14,Semiconductor Index (SOX),Semiconductor,United States,daily,9224.12
-2026-04-15,Semiconductor Index (SOX),Semiconductor,United States,daily,9239.29
-2026-04-16,Semiconductor Index (SOX),Semiconductor,United States,daily,9329.35
-2026-04-17,Semiconductor Index (SOX),Semiconductor,United States,daily,9555.88
-2026-04-20,Semiconductor Index (SOX),Semiconductor,United States,daily,9599.21
-2026-04-21,Semiconductor Index (SOX),Semiconductor,United States,daily,9647.21
-2026-04-22,Semiconductor Index (SOX),Semiconductor,United States,daily,9909.27
-2026-04-23,Semiconductor Index (SOX),Semiconductor,United States,daily,10078.57
-2026-04-24,Semiconductor Index (SOX),Semiconductor,United States,daily,10513.66
-2026-04-27,Semiconductor Index (SOX),Semiconductor,United States,daily,10408.04
-2026-04-28,Semiconductor Index (SOX),Semiconductor,United States,daily,10035.58
-2026-04-29,Semiconductor Index (SOX),Semiconductor,United States,daily,10271.3
-2026-04-30,Semiconductor Index (SOX),Semiconductor,United States,daily,10503.7
-2026-05-01,Semiconductor Index (SOX),Semiconductor,United States,daily,10595.34
-2026-05-04,Semiconductor Index (SOX),Semiconductor,United States,daily,10534.66
-2026-05-05,Semiconductor Index (SOX),Semiconductor,United States,daily,10980.58
-2026-05-06,Semiconductor Index (SOX),Semiconductor,United States,daily,11472.75
-2026-05-07,Semiconductor Index (SOX),Semiconductor,United States,daily,11160.99
-2026-05-08,Semiconductor Index (SOX),Semiconductor,United States,daily,11775.5
-2026-05-11,Semiconductor Index (SOX),Semiconductor,United States,daily,12081.04
-2026-05-12,Semiconductor Index (SOX),Semiconductor,United States,daily,11717.26
-2026-05-13,Semiconductor Index (SOX),Semiconductor,United States,daily,12017.98
-2026-05-14,Semiconductor Index (SOX),Semiconductor,United States,daily,12073.78
-2026-05-15,Semiconductor Index (SOX),Semiconductor,United States,daily,11588.46
-2026-05-18,Semiconductor Index (SOX),Semiconductor,United States,daily,11302.52
-2026-05-19,Semiconductor Index (SOX),Semiconductor,United States,daily,11305.5
-2026-05-20,Semiconductor Index (SOX),Semiconductor,United States,daily,11813.29
-2026-05-21,Semiconductor Index (SOX),Semiconductor,United States,daily,11964.09
-2026-05-22,Semiconductor Index (SOX),Semiconductor,United States,daily,12202.54
-2026-05-26,Semiconductor Index (SOX),Semiconductor,United States,daily,12876.91
-2026-05-27,Semiconductor Index (SOX),Semiconductor,United States,daily,12702.19
-2026-05-28,Semiconductor Index (SOX),Semiconductor,United States,daily,12829.14
-2026-05-29,Semiconductor Index (SOX),Semiconductor,United States,daily,12829.38
-2026-06-01,Semiconductor Index (SOX),Semiconductor,United States,daily,12965.65
-2026-06-02,Semiconductor Index (SOX),Semiconductor,United States,daily,13726.27
-2026-06-03,Semiconductor Index (SOX),Semiconductor,United States,daily,13916.96
-2026-06-04,Semiconductor Index (SOX),Semiconductor,United States,daily,13617.49
-2026-06-05,Semiconductor Index (SOX),Semiconductor,United States,daily,12220.76
-2026-06-08,Semiconductor Index (SOX),Semiconductor,United States,daily,12906.69
-2026-06-09,Semiconductor Index (SOX),Semiconductor,United States,daily,12657.81
-2026-06-10,Semiconductor Index (SOX),Semiconductor,United States,daily,12206.46
-2026-06-11,Semiconductor Index (SOX),Semiconductor,United States,daily,13171.44
-2026-06-12,Semiconductor Index (SOX),Semiconductor,United States,daily,13371.47
-2026-06-15,Semiconductor Index (SOX),Semiconductor,United States,daily,14099.62
-2026-06-16,Semiconductor Index (SOX),Semiconductor,United States,daily,13294.22
-2026-06-17,Semiconductor Index (SOX),Semiconductor,United States,daily,13477.07
-2026-06-18,Semiconductor Index (SOX),Semiconductor,United States,daily,14341.78
-2026-06-22,Semiconductor Index (SOX),Semiconductor,United States,daily,14634.72
-2026-06-23,Semiconductor Index (SOX),Semiconductor,United States,daily,13482.51
-2026-06-24,Semiconductor Index (SOX),Semiconductor,United States,daily,13458.19
-2026-06-25,Semiconductor Index (SOX),Semiconductor,United States,daily,13940.87
-2026-06-26,Semiconductor Index (SOX),Semiconductor,United States,daily,13203.57
-2026-06-29,Semiconductor Index (SOX),Semiconductor,United States,daily,13709.66
-2026-06-30,Semiconductor Index (SOX),Semiconductor,United States,daily,14246.96
-2026-07-01,Semiconductor Index (SOX),Semiconductor,United States,daily,13353.28
-2026-07-02,Semiconductor Index (SOX),Semiconductor,United States,daily,12626.22
-2026-07-06,Semiconductor Index (SOX),Semiconductor,United States,daily,12900.14
-2026-07-07,Semiconductor Index (SOX),Semiconductor,United States,daily,12300.52
-2026-07-08,Semiconductor Index (SOX),Semiconductor,United States,daily,12574.97
-2026-07-09,Semiconductor Index (SOX),Semiconductor,United States,daily,12960.0
-2026-07-10,Semiconductor Index (SOX),Semiconductor,United States,daily,12967.16
-2026-07-13,Semiconductor Index (SOX),Semiconductor,United States,daily,12347.78
-2026-07-14,Semiconductor Index (SOX),Semiconductor,United States,daily,12661.93
-2026-07-15,Semiconductor Index (SOX),Semiconductor,United States,daily,12398.89
-2026-07-16,Semiconductor Index (SOX),Semiconductor,United States,daily,11867.5
-2026-07-17,Semiconductor Index (SOX),Semiconductor,United States,daily,11673.89
-2026-07-20,Semiconductor Index (SOX),Semiconductor,United States,daily,11743.85
-2026-07-21,Semiconductor Index (SOX),Semiconductor,United States,daily,12356.16
-2026-07-22,Semiconductor Index (SOX),Semiconductor,United States,daily,12410.66
-2026-07-23,Semiconductor Index (SOX),Semiconductor,United States,daily,12343.84
-2026-07-24,Semiconductor Index (SOX),Semiconductor,United States,daily,11818.89
-2026-07-27,Semiconductor Index (SOX),Semiconductor,United States,daily,11554.88
-2026-07-28,Semiconductor Index (SOX),Semiconductor,United States,daily,11035.68
-2026-07-29,Semiconductor Index (SOX),Semiconductor,United States,daily,10447.49
-2026-07-30,Semiconductor Index (SOX),Semiconductor,United States,daily,11302.99
-2026-07-31,Semiconductor Index (SOX),Semiconductor,United States,daily,11311.08
-2026-08-03,Semiconductor Index (SOX),Semiconductor,United States,daily,11430.35
-2026-08-04,Semiconductor Index (SOX),Semiconductor,United States,daily,12179.26
-2026-08-05,Semiconductor Index (SOX),Semiconductor,United States,daily,12008.88
-2026-08-06,Semiconductor Index (SOX),Semiconductor,United States,daily,12048.69
-2026-08-07,Semiconductor Index (SOX),Semiconductor,United States,daily,12356.79
-2026-08-10,Semiconductor Index (SOX),Semiconductor,United States,daily,11993.86
-2026-08-11,Semiconductor Index (SOX),Semiconductor,United States,daily,12098.47
-2026-08-12,Semiconductor Index (SOX),Semiconductor,United States,daily,12399.38
-2026-08-13,Semiconductor Index (SOX),Semiconductor,United States,daily,12456.0
-2026-08-14,Semiconductor Index (SOX),Semiconductor,United States,daily,12417.05
-2026-08-17,Semiconductor Index (SOX),Semiconductor,United States,daily,12621.0
-2026-08-18,Semiconductor Index (SOX),Semiconductor,United States,daily,11992.46
-2026-08-19,Semiconductor Index (SOX),Semiconductor,United States,daily,11738.23
-2026-08-20,Semiconductor Index (SOX),Semiconductor,United States,daily,11800.02
-2026-08-21,Semiconductor Index (SOX),Semiconductor,United States,daily,11740.37
-2026-08-24,Semiconductor Index (SOX),Semiconductor,United States,daily,11423.17
-2026-08-25,Semiconductor Index (SOX),Semiconductor,United States,daily,11588.04
-2026-08-26,Semiconductor Index (SOX),Semiconductor,United States,daily,11611.24
-2026-08-27,Semiconductor Index (SOX),Semiconductor,United States,daily,11882.17
-2026-08-28,Semiconductor Index (SOX),Semiconductor,United States,daily,11469.66
-2026-08-31,Semiconductor Index (SOX),Semiconductor,United States,daily,11535.05
-2026-09-01,Semiconductor Index (SOX),Semiconductor,United States,daily,11288.61
-2026-09-02,Semiconductor Index (SOX),Semiconductor,United States,daily,11339.25
-2026-09-03,Semiconductor Index (SOX),Semiconductor,United States,daily,11352.13
-2026-09-04,Semiconductor Index (SOX),Semiconductor,United States,daily,11735.26
-2026-09-08,Semiconductor Index (SOX),Semiconductor,United States,daily,11887.87
-2026-09-09,Semiconductor Index (SOX),Semiconductor,United States,daily,11931.32
-2026-09-10,Semiconductor Index (SOX),Semiconductor,United States,daily,11614.17
-2026-09-11,Semiconductor Index (SOX),Semiconductor,United States,daily,11824.0
-2026-09-14,Semiconductor Index (SOX),Semiconductor,United States,daily,11131.28
-2026-09-15,Semiconductor Index (SOX),Semiconductor,United States,daily,11175.55
-2026-09-16,Semiconductor Index (SOX),Semiconductor,United States,daily,11246.11
-2026-09-17,Semiconductor Index (SOX),Semiconductor,United States,daily,11599.49
-2026-09-18,Semiconductor Index (SOX),Semiconductor,United States,daily,11921.69
-2026-09-21,Semiconductor Index (SOX),Semiconductor,United States,daily,12433.17
-2026-09-22,Semiconductor Index (SOX),Semiconductor,United States,daily,12689.82
-2026-09-23,Semiconductor Index (SOX),Semiconductor,United States,daily,12534.27
-2026-09-24,Semiconductor Index (SOX),Semiconductor,United States,daily,12492.54
-2026-09-25,Semiconductor Index (SOX),Semiconductor,United States,daily,12668.93
-2026-09-28,Semiconductor Index (SOX),Semiconductor,United States,daily,12465.24
-2026-09-29,Semiconductor Index (SOX),Semiconductor,United States,daily,12629.16
-2026-09-30,Semiconductor Index (SOX),Semiconductor,United States,daily,12628.62
-2026-10-01,Semiconductor Index (SOX),Semiconductor,United States,daily,12829.0
-2026-10-02,Semiconductor Index (SOX),Semiconductor,United States,daily,13136.67
-2026-10-05,Semiconductor Index (SOX),Semiconductor,United States,daily,13172.74
-2026-10-06,Semiconductor Index (SOX),Semiconductor,United States,daily,13217.82
-2026-10-07,Semiconductor Index (SOX),Semiconductor,United States,daily,13066.15
-2026-10-08,Semiconductor Index (SOX),Semiconductor,United States,daily,12623.71
-2026-10-09,Semiconductor Index (SOX),Semiconductor,United States,daily,12572.42
-2026-10-12,Semiconductor Index (SOX),Semiconductor,United States,daily,12236.79
-2026-10-13,Semiconductor Index (SOX),Semiconductor,United States,daily,12208.79
-2026-10-14,Semiconductor Index (SOX),Semiconductor,United States,daily,11684.38
-2026-10-15,Semiconductor Index (SOX),Semiconductor,United States,daily,11581.22
-2026-10-16,Semiconductor Index (SOX),Semiconductor,United States,daily,11137.29
-2026-10-19,Semiconductor Index (SOX),Semiconductor,United States,daily,11316.34
 2026-01-02,USD/JPY,FX,Global,daily,156.72
 2026-01-05,USD/JPY,FX,Global,daily,156.32
 2026-01-06,USD/JPY,FX,Global,daily,156.7
@@ -661,141 +254,6 @@
 2026-04-01,USD/JPY,FX,Global,daily,158.63
 2026-04-02,USD/JPY,FX,Global,daily,159.34
 2026-04-03,USD/JPY,FX,Global,daily,159.64
-2026-04-06,USD/JPY,FX,Global,daily,159.71
-2026-04-07,USD/JPY,FX,Global,daily,159.9
-2026-04-08,USD/JPY,FX,Global,daily,158.39
-2026-04-09,USD/JPY,FX,Global,daily,158.87
-2026-04-10,USD/JPY,FX,Global,daily,159.22
-2026-04-13,USD/JPY,FX,Global,daily,159.74
-2026-04-14,USD/JPY,FX,Global,daily,158.91
-2026-04-15,USD/JPY,FX,Global,daily,159.02
-2026-04-16,USD/JPY,FX,Global,daily,159.07
-2026-04-17,USD/JPY,FX,Global,daily,158.1
-2026-04-20,USD/JPY,FX,Global,daily,158.66
-2026-04-21,USD/JPY,FX,Global,daily,159.39
-2026-04-22,USD/JPY,FX,Global,daily,159.49
-2026-04-23,USD/JPY,FX,Global,daily,159.44
-2026-04-24,USD/JPY,FX,Global,daily,159.35
-2026-04-27,USD/JPY,FX,Global,daily,159.29
-2026-04-28,USD/JPY,FX,Global,daily,159.53
-2026-04-29,USD/JPY,FX,Global,daily,160.23
-2026-04-30,USD/JPY,FX,Global,daily,156.66
-2026-05-01,USD/JPY,FX,Global,daily,156.76
-2026-05-04,USD/JPY,FX,Global,daily,157.21
-2026-05-05,USD/JPY,FX,Global,daily,157.68
-2026-05-06,USD/JPY,FX,Global,daily,156.44
-2026-05-07,USD/JPY,FX,Global,daily,156.48
-2026-05-08,USD/JPY,FX,Global,daily,156.64
-2026-05-11,USD/JPY,FX,Global,daily,157.04
-2026-05-12,USD/JPY,FX,Global,daily,157.71
-2026-05-13,USD/JPY,FX,Global,daily,157.84
-2026-05-14,USD/JPY,FX,Global,daily,158.08
-2026-05-15,USD/JPY,FX,Global,daily,158.69
-2026-05-18,USD/JPY,FX,Global,daily,158.83
-2026-05-19,USD/JPY,FX,Global,daily,159.11
-2026-05-20,USD/JPY,FX,Global,daily,158.84
-2026-05-21,USD/JPY,FX,Global,daily,159.16
-2026-05-22,USD/JPY,FX,Global,daily,159.2
-2026-05-26,USD/JPY,FX,Global,daily,159.36
-2026-05-27,USD/JPY,FX,Global,daily,159.47
-2026-05-28,USD/JPY,FX,Global,daily,159.29
-2026-05-29,USD/JPY,FX,Global,daily,159.23
-2026-06-01,USD/JPY,FX,Global,daily,159.66
-2026-06-02,USD/JPY,FX,Global,daily,159.86
-2026-06-03,USD/JPY,FX,Global,daily,159.97
-2026-06-04,USD/JPY,FX,Global,daily,159.97
-2026-06-05,USD/JPY,FX,Global,daily,160.26
-2026-06-08,USD/JPY,FX,Global,daily,160.12
-2026-06-09,USD/JPY,FX,Global,daily,160.23
-2026-06-10,USD/JPY,FX,Global,daily,160.47
-2026-06-11,USD/JPY,FX,Global,daily,160.51
-2026-06-12,USD/JPY,FX,Global,daily,160.24
-2026-06-15,USD/JPY,FX,Global,daily,160.2
-2026-06-16,USD/JPY,FX,Global,daily,160.39
-2026-06-17,USD/JPY,FX,Global,daily,160.22
-2026-06-18,USD/JPY,FX,Global,daily,161.37
-2026-06-22,USD/JPY,FX,Global,daily,161.51
-2026-06-23,USD/JPY,FX,Global,daily,161.55
-2026-06-24,USD/JPY,FX,Global,daily,161.76
-2026-06-25,USD/JPY,FX,Global,daily,161.67
-2026-06-26,USD/JPY,FX,Global,daily,161.67
-2026-06-29,USD/JPY,FX,Global,daily,161.93
-2026-06-30,USD/JPY,FX,Global,daily,162.61
-2026-07-01,USD/JPY,FX,Global,daily,162.41
-2026-07-02,USD/JPY,FX,Global,daily,160.9
-2026-07-06,USD/JPY,FX,Global,daily,162.28
-2026-07-07,USD/JPY,FX,Global,daily,161.91
-2026-07-08,USD/JPY,FX,Global,daily,162.67
-2026-07-09,USD/JPY,FX,Global,daily,162.29
-2026-07-10,USD/JPY,FX,Global,daily,161.31
-2026-07-13,USD/JPY,FX,Global,daily,162.32
-2026-07-14,USD/JPY,FX,Global,daily,162.14
-2026-07-15,USD/JPY,FX,Global,daily,162.13
-2026-07-16,USD/JPY,FX,Global,daily,162.42
-2026-07-17,USD/JPY,FX,Global,daily,162.43
-2026-07-20,USD/JPY,FX,Global,daily,162.59
-2026-07-21,USD/JPY,FX,Global,daily,163.01
-2026-07-22,USD/JPY,FX,Global,daily,163.08
-2026-07-23,USD/JPY,FX,Global,daily,163.8
-2026-07-24,USD/JPY,FX,Global,daily,163.71
-2026-07-27,USD/JPY,FX,Global,daily,163.71
-2026-07-28,USD/JPY,FX,Global,daily,163.65
-2026-07-29,USD/JPY,FX,Global,daily,163.86
-2026-07-30,USD/JPY,FX,Global,daily,159.47
-2026-07-31,USD/JPY,FX,Global,daily,159.16
-2026-08-03,USD/JPY,FX,Global,daily,156.96
-2026-08-04,USD/JPY,FX,Global,daily,157.44
-2026-08-05,USD/JPY,FX,Global,daily,157.63
-2026-08-06,USD/JPY,FX,Global,daily,158.45
-2026-08-07,USD/JPY,FX,Global,daily,157.54
-2026-08-10,USD/JPY,FX,Global,daily,158.9
-2026-08-11,USD/JPY,FX,Global,daily,159.25
-2026-08-12,USD/JPY,FX,Global,daily,159.23
-2026-08-13,USD/JPY,FX,Global,daily,159.35
-2026-08-14,USD/JPY,FX,Global,daily,159.21
-2026-08-17,USD/JPY,FX,Global,daily,159.34
-2026-08-18,USD/JPY,FX,Global,daily,159.58
-2026-08-19,USD/JPY,FX,Global,daily,158.45
-2026-08-20,USD/JPY,FX,Global,daily,158.85
-2026-08-21,USD/JPY,FX,Global,daily,158.91
-2026-08-24,USD/JPY,FX,Global,daily,159.17
-2026-08-25,USD/JPY,FX,Global,daily,159.21
-2026-08-26,USD/JPY,FX,Global,daily,159.36
-2026-08-27,USD/JPY,FX,Global,daily,159.26
-2026-08-28,USD/JPY,FX,Global,daily,159.97
-2026-08-31,USD/JPY,FX,Global,daily,159.74
-2026-09-01,USD/JPY,FX,Global,daily,160.03
-2026-09-02,USD/JPY,FX,Global,daily,158.79
-2026-09-03,USD/JPY,FX,Global,daily,155.39
-2026-09-04,USD/JPY,FX,Global,daily,156.11
-2026-09-08,USD/JPY,FX,Global,daily,154.24
-2026-09-09,USD/JPY,FX,Global,daily,153.5
-2026-09-10,USD/JPY,FX,Global,daily,154.06
-2026-09-11,USD/JPY,FX,Global,daily,153.71
-2026-09-14,USD/JPY,FX,Global,daily,154.42
-2026-09-15,USD/JPY,FX,Global,daily,155.11
-2026-09-16,USD/JPY,FX,Global,daily,155.08
-2026-09-17,USD/JPY,FX,Global,daily,155.85
-2026-09-18,USD/JPY,FX,Global,daily,156.87
-2026-09-21,USD/JPY,FX,Global,daily,157.46
-2026-09-22,USD/JPY,FX,Global,daily,157.55
-2026-09-23,USD/JPY,FX,Global,daily,158.3
-2026-09-24,USD/JPY,FX,Global,daily,158.92
-2026-09-25,USD/JPY,FX,Global,daily,157.18
-2026-09-28,USD/JPY,FX,Global,daily,157.44
-2026-09-29,USD/JPY,FX,Global,daily,157.5
-2026-09-30,USD/JPY,FX,Global,daily,157.25
-2026-10-01,USD/JPY,FX,Global,daily,157.63
-2026-10-02,USD/JPY,FX,Global,daily,157.81
-2026-10-05,USD/JPY,FX,Global,daily,157.97
-2026-10-06,USD/JPY,FX,Global,daily,158.12
-2026-10-07,USD/JPY,FX,Global,daily,158.11
-2026-10-08,USD/JPY,FX,Global,daily,158.33
-2026-10-09,USD/JPY,FX,Global,daily,158.34
-2026-10-13,USD/JPY,FX,Global,daily,158.36
-2026-10-14,USD/JPY,FX,Global,daily,158.84
-2026-10-15,USD/JPY,FX,Global,daily,158.18
-2026-10-16,USD/JPY,FX,Global,daily,158.0
 2026-01-02,WTI Crude Oil,Commodity,Global,daily,57.21
 2026-01-05,WTI Crude Oil,Commodity,Global,daily,58.1
 2026-01-06,WTI Crude Oil,Commodity,Global,daily,56.97
@@ -856,140 +314,3 @@
 2026-03-26,WTI Crude Oil,Commodity,Global,daily,96.18
 2026-03-27,WTI Crude Oil,Commodity,Global,daily,101.26
 2026-03-30,WTI Crude Oil,Commodity,Global,daily,104.69
-2026-03-31,WTI Crude Oil,Commodity,Global,daily,102.86
-2026-04-01,WTI Crude Oil,Commodity,Global,daily,101.9
-2026-04-02,WTI Crude Oil,Commodity,Global,daily,113.23
-2026-04-06,WTI Crude Oil,Commodity,Global,daily,114.01
-2026-04-07,WTI Crude Oil,Commodity,Global,daily,114.58
-2026-04-08,WTI Crude Oil,Commodity,Global,daily,96.17
-2026-04-09,WTI Crude Oil,Commodity,Global,daily,99.62
-2026-04-10,WTI Crude Oil,Commodity,Global,daily,98.34
-2026-04-13,WTI Crude Oil,Commodity,Global,daily,100.72
-2026-04-14,WTI Crude Oil,Commodity,Global,daily,93.07
-2026-04-15,WTI Crude Oil,Commodity,Global,daily,93.04
-2026-04-16,WTI Crude Oil,Commodity,Global,daily,96.46
-2026-04-17,WTI Crude Oil,Commodity,Global,daily,85.91
-2026-04-20,WTI Crude Oil,Commodity,Global,daily,91.06
-2026-04-21,WTI Crude Oil,Commodity,Global,daily,93.64
-2026-04-22,WTI Crude Oil,Commodity,Global,daily,94.76
-2026-04-23,WTI Crude Oil,Commodity,Global,daily,99.27
-2026-04-24,WTI Crude Oil,Commodity,Global,daily,98.42
-2026-04-27,WTI Crude Oil,Commodity,Global,daily,99.89
-2026-04-28,WTI Crude Oil,Commodity,Global,daily,103.45
-2026-04-29,WTI Crude Oil,Commodity,Global,daily,110.47
-2026-04-30,WTI Crude Oil,Commodity,Global,daily,108.64
-2026-05-01,WTI Crude Oil,Commodity,Global,daily,105.38
-2026-05-04,WTI Crude Oil,Commodity,Global,daily,109.76
-2026-05-05,WTI Crude Oil,Commodity,Global,daily,105.66
-2026-05-06,WTI Crude Oil,Commodity,Global,daily,98.75
-2026-05-07,WTI Crude Oil,Commodity,Global,daily,98.38
-2026-05-08,WTI Crude Oil,Commodity,Global,daily,98.87
-2026-05-11,WTI Crude Oil,Commodity,Global,daily,101.56
-2026-05-12,WTI Crude Oil,Commodity,Global,daily,105.78
-2026-05-13,WTI Crude Oil,Commodity,Global,daily,104.52
-2026-05-14,WTI Crude Oil,Commodity,Global,daily,104.66
-2026-05-15,WTI Crude Oil,Commodity,Global,daily,108.99
-2026-05-18,WTI Crude Oil,Commodity,Global,daily,112.25
-2026-05-19,WTI Crude Oil,Commodity,Global,daily,112.09
-2026-05-20,WTI Crude Oil,Commodity,Global,daily,101.69
-2026-05-21,WTI Crude Oil,Commodity,Global,daily,100.2
-2026-05-22,WTI Crude Oil,Commodity,Global,daily,100.35
-2026-05-26,WTI Crude Oil,Commodity,Global,daily,97.63
-2026-05-27,WTI Crude Oil,Commodity,Global,daily,92.35
-2026-05-28,WTI Crude Oil,Commodity,Global,daily,92.65
-2026-05-29,WTI Crude Oil,Commodity,Global,daily,91.16
-2026-06-01,WTI Crude Oil,Commodity,Global,daily,95.96
-2026-06-02,WTI Crude Oil,Commodity,Global,daily,97.47
-2026-06-03,WTI Crude Oil,Commodity,Global,daily,99.76
-2026-06-04,WTI Crude Oil,Commodity,Global,daily,96.83
-2026-06-05,WTI Crude Oil,Commodity,Global,daily,94.32
-2026-06-08,WTI Crude Oil,Commodity,Global,daily,95.0
-2026-06-09,WTI Crude Oil,Commodity,Global,daily,91.9
-2026-06-10,WTI Crude Oil,Commodity,Global,daily,93.68
-2026-06-11,WTI Crude Oil,Commodity,Global,daily,91.58
-2026-06-12,WTI Crude Oil,Commodity,Global,daily,88.62
-2026-06-15,WTI Crude Oil,Commodity,Global,daily,84.65
-2026-06-16,WTI Crude Oil,Commodity,Global,daily,79.8
-2026-06-17,WTI Crude Oil,Commodity,Global,daily,80.65
-2026-06-18,WTI Crude Oil,Commodity,Global,daily,80.35
-2026-06-22,WTI Crude Oil,Commodity,Global,daily,78.94
-2026-06-23,WTI Crude Oil,Commodity,Global,daily,74.62
-2026-06-24,WTI Crude Oil,Commodity,Global,daily,71.42
-2026-06-25,WTI Crude Oil,Commodity,Global,daily,72.67
-2026-06-26,WTI Crude Oil,Commodity,Global,daily,70.3
-2026-06-29,WTI Crude Oil,Commodity,Global,daily,71.87
-2026-06-30,WTI Crude Oil,Commodity,Global,daily,70.56
-2026-07-01,WTI Crude Oil,Commodity,Global,daily,69.74
-2026-07-02,WTI Crude Oil,Commodity,Global,daily,69.73
-2026-07-06,WTI Crude Oil,Commodity,Global,daily,69.6
-2026-07-07,WTI Crude Oil,Commodity,Global,daily,71.53
-2026-07-08,WTI Crude Oil,Commodity,Global,daily,74.56
-2026-07-09,WTI Crude Oil,Commodity,Global,daily,73.15
-2026-07-10,WTI Crude Oil,Commodity,Global,daily,72.45
-2026-07-13,WTI Crude Oil,Commodity,Global,daily,79.2
-2026-07-14,WTI Crude Oil,Commodity,Global,daily,80.44
-2026-07-15,WTI Crude Oil,Commodity,Global,daily,80.73
-2026-07-16,WTI Crude Oil,Commodity,Global,daily,80.03
-2026-07-17,WTI Crude Oil,Commodity,Global,daily,83.43
-2026-07-20,WTI Crude Oil,Commodity,Global,daily,84.38
-2026-07-21,WTI Crude Oil,Commodity,Global,daily,86.04
-2026-07-22,WTI Crude Oil,Commodity,Global,daily,87.66
-2026-07-23,WTI Crude Oil,Commodity,Global,daily,93.08
-2026-07-24,WTI Crude Oil,Commodity,Global,daily,91.74
-2026-07-27,WTI Crude Oil,Commodity,Global,daily,84.25
-2026-07-28,WTI Crude Oil,Commodity,Global,daily,80.91
-2026-07-29,WTI Crude Oil,Commodity,Global,daily,86.08
-2026-07-30,WTI Crude Oil,Commodity,Global,daily,85.15
-2026-07-31,WTI Crude Oil,Commodity,Global,daily,86.16
-2026-08-03,WTI Crude Oil,Commodity,Global,daily,81.96
-2026-08-04,WTI Crude Oil,Commodity,Global,daily,77.33
-2026-08-05,WTI Crude Oil,Commodity,Global,daily,76.78
-2026-08-06,WTI Crude Oil,Commodity,Global,daily,78.88
-2026-08-07,WTI Crude Oil,Commodity,Global,daily,79.77
-2026-08-10,WTI Crude Oil,Commodity,Global,daily,83.76
-2026-08-11,WTI Crude Oil,Commodity,Global,daily,84.77
-2026-08-12,WTI Crude Oil,Commodity,Global,daily,84.97
-2026-08-13,WTI Crude Oil,Commodity,Global,daily,82.77
-2026-08-14,WTI Crude Oil,Commodity,Global,daily,83.99
-2026-08-17,WTI Crude Oil,Commodity,Global,daily,86.04
-2026-08-18,WTI Crude Oil,Commodity,Global,daily,86.48
-2026-08-19,WTI Crude Oil,Commodity,Global,daily,87.28
-2026-08-20,WTI Crude Oil,Commodity,Global,daily,89.75
-2026-08-21,WTI Crude Oil,Commodity,Global,daily,87.21
-2026-08-24,WTI Crude Oil,Commodity,Global,daily,86.34
-2026-08-25,WTI Crude Oil,Commodity,Global,daily,83.9
-2026-08-26,WTI Crude Oil,Commodity,Global,daily,83.46
-2026-08-27,WTI Crude Oil,Commodity,Global,daily,84.81
-2026-08-28,WTI Crude Oil,Commodity,Global,daily,84.57
-2026-08-31,WTI Crude Oil,Commodity,Global,daily,87.03
-2026-09-01,WTI Crude Oil,Commodity,Global,daily,91.48
-2026-09-02,WTI Crude Oil,Commodity,Global,daily,92.15
-2026-09-03,WTI Crude Oil,Commodity,Global,daily,92.55
-2026-09-04,WTI Crude Oil,Commodity,Global,daily,92.69
-2026-09-08,WTI Crude Oil,Commodity,Global,daily,94.21
-2026-09-09,WTI Crude Oil,Commodity,Global,daily,97.26
-2026-09-10,WTI Crude Oil,Commodity,Global,daily,103.57
-2026-09-11,WTI Crude Oil,Commodity,Global,daily,101.27
-2026-09-14,WTI Crude Oil,Commodity,Global,daily,102.42
-2026-09-15,WTI Crude Oil,Commodity,Global,daily,107.02
-2026-09-16,WTI Crude Oil,Commodity,Global,daily,103.62
-2026-09-17,WTI Crude Oil,Commodity,Global,daily,103.21
-2026-09-18,WTI Crude Oil,Commodity,Global,daily,101.44
-2026-09-21,WTI Crude Oil,Commodity,Global,daily,96.97
-2026-09-22,WTI Crude Oil,Commodity,Global,daily,96.41
-2026-09-23,WTI Crude Oil,Commodity,Global,daily,93.38
-2026-09-24,WTI Crude Oil,Commodity,Global,daily,95.88
-2026-09-25,WTI Crude Oil,Commodity,Global,daily,85.23
-2026-09-28,WTI Crude Oil,Commodity,Global,daily,99.37
-2026-09-29,WTI Crude Oil,Commodity,Global,daily,96.16
-2026-09-30,WTI Crude Oil,Commodity,Global,daily,97.18
-2026-10-01,WTI Crude Oil,Commodity,Global,daily,99.77
-2026-10-02,WTI Crude Oil,Commodity,Global,daily,97.89
-2026-10-05,WTI Crude Oil,Commodity,Global,daily,96.13
-2026-10-06,WTI Crude Oil,Commodity,Global,daily,96.24
-2026-10-07,WTI Crude Oil,Commodity,Global,daily,95.02
-2026-10-08,WTI Crude Oil,Commodity,Global,daily,98.26
-2026-10-09,WTI Crude Oil,Commodity,Global,daily,98.73
-2026-10-12,WTI Crude Oil,Commodity,Global,daily,98.73
-2026-10-13,WTI Crude Oil,Commodity,Global,daily,100.86
-2026-10-14,WTI Crude Oil,Commodity,Global,daily,101.91
